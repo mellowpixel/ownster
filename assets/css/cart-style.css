@@ -1,0 +1,101 @@
+/*cart-style.css*/
+
+main div.center{
+	min-height: 400px;
+	position: relative;
+}
+
+#empty_message
+{
+	text-align: center;
+	margin-top: 150px;
+}
+
+#empty_message p a#create_new
+{
+	cursor: pointer;
+	text-decoration: underline;
+	padding-top: 10px;
+}
+
+main div.center div.item-wrapper
+{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+main div.center img.thumb_img
+{
+	max-width: 350px;
+	max-height: 350px;
+}
+
+main div.center div.item-wrapper table.item-controlls
+{
+	display: inline-block;
+	position: absolute;
+	vertical-align: top;
+	right: 10px;
+}
+main div.center div.item-wrapper table.item-controlls tr
+{
+	display: block;
+}
+
+main div.center div.item-wrapper table.item-controlls tr.item-details-header
+{
+	
+	border-bottom: solid thin #aaa;
+}
+
+main div.center div.item-wrapper table.item-controlls tr td
+{
+	width: 80px;
+	text-align: center;
+
+}
+
+main div.center div#subtotal-wrapper
+{
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	width: 100%;
+	padding-right: 20px;
+	text-align: right;
+	box-sizing: border-box;
+}
+
+#total_order
+{
+	font-size: 1.1em;
+}
+
+div.buttons_wrapper
+{
+	position: absolute;
+	bottom: 15px;
+	margin-top: 40px;
+	text-align: center;
+	width: 530px;
+	left: 50%;
+	margin-left: -265px;
+}
+#checkout_butt{
+	font-size: 1.3em;
+}
+
+#continue_shop_butt{
+	color: #fff;
+}
+
+.remove-butt
+{
+}
+
+.quantity
+{
+	width: 30px;
+}

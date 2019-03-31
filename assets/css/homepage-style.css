@@ -1,0 +1,151 @@
+
+#stage-process-image-wrapper
+{
+	width: 862px;
+	margin: 20px auto 10px auto;
+}
+
+.text-block{
+	width: 860px;
+	margin: 50px auto 0px auto;
+	text-align: justify;
+}
+
+main { padding-top: 4px }
+
+main div#homepage-main-img{
+	width: 100%;
+	position: relative;
+	/*border-bottom: solid 4px #015b7e;*/
+}
+
+main div#homepage-main-img img
+{
+	width: 100%;
+}
+
+main div#homepage-main-img div.banner-text
+{
+	position: absolute;
+	right: 130px;
+	top: 40px;
+	width: 406px;
+}
+
+#turnaround-info {
+	display: block;
+	width: 100%;
+	margin-top: 4px;
+	background-color: #015b7e;
+}
+
+#turnaround-info table {
+	margin: 0px auto 0px auto;
+	width: 880px;
+	text-align: center;
+	color: #fff;
+	border-collapse: collapse;
+}
+
+#turnaround-info table tr td:not(.spliter) {
+	font-family: Century Gothic, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	/*border: solid thin #fff;*/
+	text-align: center;
+}
+.spliter{
+	font-size: 30px;
+	line-height: 30px;
+	width: 70px;
+}
+.spliter:nth-child(1){
+	padding-right: 15px;
+}
+.spliter:nth-child(2){
+	padding-left: 15px;
+}
+/*#turnaround-info table tr td:nth-child(1){ text-align: right;}
+#turnaround-info table tr td:nth-child(5){ text-align: left;}*/
+/*#turnaround-info table tr td:nth-child(1){ width: 380px; text-align: right; padding-right: 20px; }
+#turnaround-info table tr td:nth-child(5){ width: 380px; text-align: left; padding-left: 20px;}
+#turnaround-info table tr td:nth-child(3){ width: 160px; }*/
+/*	Banner text formating	---------------------------------------------------*/
+
+.banner-text h1
+{
+	text-align: center;
+	font-weight: normal;
+	width: 500px;
+	font-size: 2.3em;
+	line-height: 1.1em;
+}
+
+.banner-text.slide1 h1{
+	/*width: 470px;*/
+}
+
+.banner-text p{
+	width: 470px;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.banner-text.slide2 ul{
+	margin: 0px;
+	padding:0px;
+	text-align: center;
+	list-style: none;
+}
+
+.banner-text.slide2 ul li{
+	list-style: none;
+	width: 470px;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------*/
+
+main .group-block,
+.product-cover-block
+{
+	position: relative;
+	width: 900px;
+	min-height: 280px;
+	margin: 40px auto 45px auto;
+	display: block;
+	border-top: solid thin #ddd;
+	padding-top: 15px;
+	box-sizing: border-box;
+	/*border: solid thin #aaa;*/
+}
+
+main .group-block:nth-child(1),
+	margin-top: 30px;
+}
+
+main .group-block .product-img-wrapper,
+{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,487 @@
+@import 'bootstrap';
+@import 'general-style-config';
+@import 'header';
+@import 'footer';
+@import 'popup-window';
+
+.content-wrapper {
+	@include make-row(0);
+	@include centered-content();
+	margin:0 auto;
+	@include headers_style();
+	
+	.web-content {
+		display: none;
+		@media (min-width: $screen-sm-min) { display: block; }
+		.show-on-mobile { display: none; }
+	}
+
+	.mobile-content {
+		display: block;
+		@media (min-width: $screen-sm-min) { display: none; }
+		
+		.show-on-mobile { display: block; }
+
+		hr { border-top: solid thin $background-orange; }
+		.row-B {
+			@include make-row(0);
+			h2 { @include make-xs-column(6); }
+			.total_order { color:$background-green; } 
+		}
+		.row-C {
+			@include make-row(0);
+			
+			h3 { @include make-xs-column(12); }
+			span { @include make-xs-column(6);  }
+			button { @include button-orange(10px, 10px); width: 80%;}
+
+			.redeem_input {
+				text-transform: uppercase;
+			}
+		}
+		.row-D {
+			@include make-row(0);
+
+			.title { @include make-xs-column(6); }
+			div { 
+				@include make-xs-column(6);
+				* { color: $background-green; }
+
+			}
+		}
+		.row-E {
+			@include make-row(0);
+
+			#delivery_info_mobile { @include make-xs-column(12); }
+			.load-addr-butt { @include make-xs-column(12); }
+			.load_from_address_butt { 
+				@include button-orange(8%, 4%); 
+				width: 100%;
+				margin-bottom: 5%; 
+			}
+			.control-label {
+				@include make-xs-column(12,0);
+				font-size: 75%;
+				text-transform: uppercase;
+				margin-top: 4%;
+			}
+			.help-block {
+            	@include make-xs-column(12,0);
+            	width: 100%;
+            	margin: 0;
+            	* { margin: 0; }
+            	div {
+            		@include make-row(0);
+
+            		p {
+            			@include make-xs-column(12,0);
+            		}
+            	}
+            }
+		}
+		.row-F {
+			@include make-row(0);
+			margin: 5% 0 10% 0;
+			.pay-butt-wrapper {
+				@include make-xs-column(12);
+				
+				.pay_butt {
+					@include button-green(8%, 4%);
+					width: 100%;
+					margin-top: 5%;
+				}
+			}
+		}
+	}
+
+
+	#cat_name_container {
+		@include make-xs-column(12);
+		@include make-sm-column(12); 
+		@include make-md-column(12);
+		@include make-lg-column(12);
+		border-bottom: solid thin $background-orange;
+		margin-bottom: 2%;
+
+		.titles-wrapper {
+			@include make-row(0);
+
+			.left-side {
+				@include make-xs-column(12);
+				@include make-sm-column(6); 
+				@include make-md-column(6);
+				@include make-lg-column(6);
+				
+				#postal_info {
+					
+				}	
+			}
+
+			.right-side {
+				
+				@include make-sm-column(6); 
+				@include make-md-column(6);
+				@include make-lg-column(6);
+				display: none;
+				@media (min-width: $screen-sm-min) { display: block; }
+
+				.row-wrapper {
+					@include make-row(0);
+					.pic-title {
+						@include make-xs-column(6);
+						@include make-sm-column(6); 
+						@include make-md-column(6);
+						@include make-lg-column(6);
+					}
+					.quote-wrapper {
+						@include make-xs-column(6);
+						@include make-sm-column(6); 
+						@include make-md-column(6);
+						@include make-lg-column(6);
+						.quote-row {
+							@include make-row(0);
+							#price_caption {
+								@include make-xs-column(5);
+								@include make-sm-column(5); 
+								@include make-md-column(5);
+								@include make-lg-column(5);
+							}
+							#quantity_caption {
+								@include make-xs-column(3);
+								@include make-sm-column(3); 
+								@include make-md-column(3);
+								@include make-lg-column(3);
+							}
+							#subtotal_caption {
+								@include make-xs-column(4);
+								@include make-sm-column(4); 
+								@include make-md-column(4);
+								@include make-lg-column(4);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.left-column {
+		@include make-xs-column(12);
+		@include make-sm-column(6); 
+		@include make-md-column(6);
+		@include make-lg-column(6);
+
+		#delivery_info {
+			.form-row {
+				@include make-row(0);
+				padding: 1% 0;
+			}
+			.control-label {
+				@include make-xs-column(12,0);
+				@include make-sm-column(4); 
+				@include make-md-column(4);
+				@include make-lg-column(4);
+				font-size: 75%;
+				text-transform: uppercase;
+				
+				text-align: left;
+				@media (min-width: $screen-sm-min) { text-align: right; }
+				
+			}
+            .form-control {
+            	@include make-xs-column(12,0);
+            	@include make-sm-column(8); 
+            	@include make-md-column(8);
+            	@include make-lg-column(8);
+            	width: 100%;
+            }
+
+            .help-block {
+            	@include make-xs-column(12,0);
+            	@include make-sm-column(12,0); 
+            	@include make-md-column(12,0);
+            	@include make-lg-column(12,0);
+            	width: 100%;
+            	margin: 0;
+
+            	div {
+            		@include make-row(0);
+
+            		p {
+            			@include make-xs-column(12);
+            			@include make-sm-column(8,0); 
+            			@include make-md-column(8,0);
+            			@include make-lg-column(8,0);
+
+            			@include make-sm-column-push(4); 
+            			@include make-md-column-push(4);
+            			@include make-lg-column-push(4);
+            		}
+            	}
+            }
+
+            .load_from_address_butt {
+            	@include make-xs-column(12);
+            	@include make-sm-column(8); 
+            	@include make-md-column(8);
+            	@include make-lg-column(8);
+
+            	@include make-xs-column-push(0);
+            	@include make-sm-column-push(4); 
+            	@include make-md-column-push(4);
+            	@include make-lg-column-push(4);
+
+            	@include button-orange(8%, 4%);
+            	@media (min-width: $screen-sm-min) { @include button-orange(4%, 4%); }
+
+            }
+		}
+	}
+
+	.right-column,
+	.row-A {
+		@include make-xs-column(12);
+		@include make-sm-column(6); 
+		@include make-md-column(6);
+		@include make-lg-column(6);	
+
+		.item_container {
+			@include make-row(0);
+
+			.img-wrapper {
+				@include make-xs-column(12,0);
+				@include make-sm-column(6,0); 
+				@include make-md-column(6,0);
+				@include make-lg-column(6,0);
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.quantity_label {
+				@include make-xs-column(12);
+				@include make-sm-column(6); 
+				@include make-md-column(6);
+				@include make-lg-column(6);
+
+				h3 { margin: 0; padding:0; }
+
+				div {
+					@include make-row(0);
+
+					.price-wrapper {
+						@include make-xs-column(5);
+						@include make-sm-column(5); 
+						@include make-md-column(5);
+						@include make-lg-column(5);
+					}
+					.qty-wrapper {
+						@include make-xs-column(3);
+						@include make-sm-column(3); 
+						@include make-md-column(3);
+						@include make-lg-column(3);
+					}
+					.subtotal-wrapper {
+						@include make-xs-column(4);
+						@include make-sm-column(4); 
+						@include make-md-column(4);
+						@include make-lg-column(4);
+					}
+					
+				}
+			}
+
+			.int_text {
+				@include make-xs-column(8);
+				@include make-sm-column(6); 
+				@include make-md-column(6);
+				@include make-lg-column(6);
+			}
+
+			.delivery_price {
+				text-align: left;
+				@include make-xs-column(4,0);
+				@include make-sm-column(6); 
+				@include make-md-column(6);
+				@include make-lg-column(6);
+
+				@media (min-width: $screen-sm-min) { text-align: right; }
+
+				line-height: 280%;
+			}
+		}
+	}
+
+	.bottom-wrapper {
+		@include make-row(0);
+		padding-bottom: 5%;
+		hr {
+			@include make-xs-column(12,0);
+			@include make-sm-column(12,0); 
+			@include make-md-column(12,0);
+			@include make-lg-column(12,0);
+			border-top: solid thin $background-orange;
+			margin-top: 2%;
+		}
+
+		#captions-row {
+			@include make-row(0);
+			span {
+				@include make-xs-column(3);
+				@include make-sm-column(3); 
+				@include make-md-column(3);
+				@include make-lg-column(3);
+
+				&:nth-last-child(1){
+					text-align: right;
+					
+				}
+			}
+		}
+
+		.right-column {
+			@include make-xs-column(12);
+			@include make-sm-column(6); 
+			@include make-md-column(6);
+			@include make-lg-column(6);
+
+			#voucher-order-amount-wrapper,
+			#pay-details-wrapper {
+				@include make-row(0);
+
+				span {
+					&:nth-child(1){
+						@include make-xs-column(6,0);
+						@include make-sm-column(6,0); 
+						@include make-md-column(6,0);
+						@include make-lg-column(6,0);
+					}
+
+					&:nth-child(2){
+						@include make-xs-column(6,0);
+						@include make-sm-column(6,0); 
+						@include make-md-column(6,0);
+						@include make-lg-column(6,0);
+					}
+				}
+			}
+
+			#pay-details-wrapper {
+				display: block;
+				@media (min-width: $screen-sm-min) { display: none; }
+			}
+
+			
+			#voucher-order-amount-wrapper {
+				position: relative;
+				input {
+					width: 68%;
+					display: inline-block;
+					vertical-align: middle;
+					text-transform: uppercase;
+				}
+
+				.redeem_butt {
+					position: absolute;
+					top: 0;
+					right: 0;
+					@include button-orange(10px, 5px);
+					width: 29%;
+					display: inline-block;
+					vertical-align: middle;
+				}
+				
+				.redeem_input {
+					text-transform: uppercase;
+				}
+
+				.total_order {
+					margin: 0;
+					padding: 0;
+					text-align: right;
+					color: $background-green;
+				}
+			}
+
+
+			.pay-butt-wrapper {
+				@include make-row(0);
+				padding: 3% 0;
+				.pay_butt {
+					@include button-green(4%, 4%);
+
+					@include make-xs-column(6);
+					@include make-sm-column(6); 
+					@include make-md-column(6);
+					@include make-lg-column(6);
+					/* @include make-xs-column-push(6);
+					@include make-sm-column-push(6); 
+					@include make-md-column-push(6);
+					@include make-lg-column-push(6); */
+				}
+			}
+		}
+
+		.left-column {
+			@include make-xs-column(12);
+			@include make-sm-column(6); 
+			@include make-md-column(6);
+			@include make-lg-column(6);
+
+			#delivery_details_container {
+				@include make-row(0);
+				display: block;
+				@media (min-width: $screen-sm-min) { display: none; }
+
+				span {
+					@include make-xs-column(6);
+					@include make-sm-column(6); 
+					@include make-md-column(6);
+					@include make-lg-column(6);
+				}
+			}
+
+			.delivery-info-wrapper{
+				@include make-row(0);
+				
+				#delivery_date_wrapper {
+					@include make-xs-column(6);
+					@include make-sm-column(6); 
+					@include make-md-column(6);
+					@include make-lg-column(6);
+
+					@include header-look();
+					color: $background-green;
+					font-size: $font-size-h3;
+					
+					#delivery-message {
+						display: none;
+					}
+				}
+
+				#address_render {
+					@include make-xs-column(6);
+					@include make-sm-column(6); 
+					@include make-md-column(6);
+					@include make-lg-column(6);
+				}	
+			}
+			
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

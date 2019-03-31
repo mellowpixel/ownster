@@ -1,0 +1,110 @@
+
+
+
+ ------------ 23:36 mellowpixels@gmail.com Function Begins 'submitOrderToEmail' -----------
+Submited Data:
+$_POST = Array
+(
+    [email_order] => Array
+        (
+            [order] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 061215_223437_TMHE
+                            [qty] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 061215_233055_QGUS
+                            [qty] => 1
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 061215_223437_TMHE
+                            [qty] => 1
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 061215_233055_QGUS
+                            [qty] => 1
+                        )
+
+                )
+
+            [delivery] => Array
+                (
+                    [month] => December
+                    [date] => 10
+                    [day] => Thursday
+                    [year] => 2015
+                    [price] => 0
+                )
+
+            [address] => Array
+                (
+                    [address_override] => 1
+                    [country] => Germany
+                    [name] => Dmitrijs
+                    [lastname] => Uljanovs
+                    [email] => mellowpixels@gmail.com
+                    [address] => Segewaldweg 55
+                    [city] => Berlin
+                    [postcode] => 12557
+                )
+
+        )
+
+)
+
+
+
+ ------------ 23:49 mellowpixels@gmail.com Function Begins 'submitOrderToEmail' -----------
+Submited Data:
+$_POST = Array
+(
+    [email_order] => Array
+        (
+            [order] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 061215_234842_ZRYB
+                            [qty] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 061215_234842_ZRYB
+                            [qty] => 1
+                        )
+
+                )
+
+            [delivery] => Array
+                (
+                    [month] => December
+                    [date] => 10
+                    [day] => Thursday
+                    [year] => 2015
+                    [price] => 0
+                )
+
+            [address] => Array
+                (
+                    [address_override] => 1
+                    [country] => Germany
+                    [name] => Dmitrijs
+                    [lastname] => Uljanovs
+                    [email] => mellowpixels@gmail.com
+                    [address] => Segewaldweg 55
+                    [city] => Berlin
+                    [postcode] => 12557
+                )
+
+        )
+
+)

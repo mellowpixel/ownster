@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+#user_space	{	float:left;
+				height:360px;
+				margin-top:80px;
+				margin-left:10px;
+				overflow:hidden;
+					}
+				
+.order_container	{	position:relative;	
+						font-size:12px;
+						margin-top:10px;	}
+						
+
+.ownster_owtline		{	position:absolute;
+							top:0px;
+							left:0px;
+							z-index:8888;	}						
+						
+.order_thumb		{	margin-top:1px;
+						margin-left:1px;		}
+
+.green_price		{	color:#393;	}						
+
+
+.reorder_butt	{	clear:both;
+					margin-top:50px;
+					font-weight:bold;
+					text-decoration:none;
+					color:#555;
+					font-size:12.8px;
+					cursor:pointer;	}
+
+.order_info			{	float:right;
+						margin-left:30px;	}
+						
+						
+#user_tabs			{	position:absolute;
+						height:40px;
+						width:510px;
+						top:35px;
+						right:20px;			}
+						
+#order_history_butt.normal	{	position:absolute;
+								top:0px;
+								left:0px; }
+								
+#my_details_butt.normal		{	position:absolute;
+								top:0px;
+								left:170px;	}
+								
+#my_details_butt.over		{	position:absolute;
+								top:0px;
+								left:170px;	}
+								
+#my_details_butt.active		{	position:absolute;
+								top:0px;
+								left:170px;	}																
+									
+#form_wrapper	{	position:absolute;
+					left:315px;
+					bottom:65px;	}
+					
+#user_details_wrapper	{	position:absolute;
+							left:100px;
+							top:100px;		}
+							
+
+#saved_addresses_frame	{	position:relative;
+							margin-left:0px;
+							margin-top:20px;	}
+									
+.row_name	{	text-align:right;
+				color:#393;
+				font-size:12px;	}
+
+
+.row_data	{	text-align:left;
+				font-size:12px;	}
+									
+.gap		{	width:10px;	}									
+							
+							
+.row_name_primary	{	text-align:right;
+						color:#393;
+						font-size:16px;	}
+
+
+.row_data_primary	{	text-align:left;
+						font-size:16px;
+						color:#666;	}
+									
+.gap_primary		{	width:15px;	}
+							
+							
+						
+						
+									
+#edit_details_butt	{	position:absolute;	
+						cursor:pointer;
+						color:#5dbbdd;
+						margin-left:92px;
+						margin-top:0px;
+						font-size:12px;	}
+						
+#change_password_butt	{	position:absolute;	
+							cursor:pointer;
+							color:#5dbbdd;
+							margin-left:92px;
+							margin-top:20px;
+							font-size:12px;		}
+
+#add_new_addr_butt		{	position:absolute;	
+							cursor:pointer;
+							color:#5dbbdd;
+							margin-left:92px;
+							margin-top:40px;
+							font-size:12px;		}												
+						
+						
+									
+.addr_wrapper	{	padding-bottom:30px;
+					position:relative;
+					width:320px;	}
+
+.edit_addr_butt	{	position:absolute;	
+					
+					cursor:pointer;
+					color:#5dbbdd;
+					right:0px;
+					top:0px;
+					font-size:12px;		}						
+									
+.delete_addr_butt	{	position:absolute;	
+						
+						cursor:pointer;
+						color:#eebb6b;
+						right:0px;
+						top:30px;
+						font-size:10px;		}
+						
+#cancel_form		{	position:absolute;	
+						cursor:pointer;
+						color:#5dbbdd;
+						margin-left:-20px;
+						margin-top:15px;	}
+						
+#empty_basket	{	color:#393;
+					font-size:24px;
+					display:block;	}
+
+#create_new		{	cursor:pointer;
+					text-decoration:underline;
+					color:#393;
+					font-size:13px;	}
+
+#photo_upload	{	cursor:pointer;
+					text-decoration:underline;
+					color:#393;
+					font-size:13px;	}
+
+#select_category	{	cursor:pointer;
+						text-decoration:underline;
+						color:#393;
+						font-size:13px;	}
+						
+#empty_message		{	text-align:center;
+						margin-left:250px;
+						margin-top:100px;	}												

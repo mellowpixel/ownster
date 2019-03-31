@@ -1,0 +1,76 @@
+/*--------------------------------------------------------------------------------------------*/
+/* HEADER */
+
+
+header div#logo,
+nav#main-navigation ul li	
+{
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+nav#main-navigation
+{
+	position: absolute;
+	right: 10px;
+	top: 39px;
+}
+
+header
+{
+	position: relative;
+	height: 80px;
+	width: 100%;
+	background-color: #015b7e;
+	font-family: Century Gothic, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+header div#logo
+{
+	background: url(../layout-img/header/logo-green.png) no-repeat top left;
+	width: 287px;
+	height: 74px;
+	margin: 5px 0px 0px 60px;
+	cursor: pointer;
+}
+
+nav#main-navigation ul
+{	
+	margin: 0px; padding: 0px;
+	list-style: none;
+}
+
+nav#main-navigation ul li
+{
+	cursor: pointer;
+	margin-right: 30px;
+	color: #fff;
+	border-bottom: solid 2px #015b7e;
+}
+
+nav#main-navigation ul li:hover:not(#cart)
+{
+	border-color: #fff;
+}
+
+nav#main-navigation ul li.active
+{
+	border-color: #fff;
+}
+
+nav#main-navigation ul li#cart span
+{
+	background: url(../layout-img/header/cart.png) no-repeat top left;
+	width: 35px;
+	height: 24px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+nav#main-navigation ul li#cart a#cart-items-counter
+{
+	margin-right: 4px;
+	display: inline-block;
+	vertical-align: bottom;
+}

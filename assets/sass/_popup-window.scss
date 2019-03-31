@@ -1,0 +1,94 @@
+.popup-window {
+	display: none;
+	@include make-row(0);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+
+	.transparrent_back {
+		background-color: #000;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0.7;
+		width: 100%;
+		height: 100%;
+	}
+
+	.opaque_window {
+		@include make-xs-column(12);
+		@include make-sm-column(6); 
+		@include make-lg-column(4);
+
+		@include make-xs-column-push(0);
+		@include make-sm-column-push(3); 
+		@include make-lg-column-push(4);
+
+		background-color: #fff;
+		margin: 10% auto;
+		padding: 3%;
+		min-height: 40%;
+		text-align: center;
+
+		&.product_variations {
+			@include make-xs-column(12);
+			@include make-sm-column(6); 
+			@include make-lg-column(6);
+
+			@include make-xs-column-push(0);
+			@include make-sm-column-push(3); 
+			@include make-lg-column-push(3);
+
+			
+			margin: 8% auto;
+			padding: 10px;
+			min-height: 50%;
+			
+		}
+
+		@include headers_style();
+
+		h2 {
+			font-size: $font-size-h3;
+			@media (min-width: $screen-sm-min) { font-size: $font-size-h2; }
+		}
+	
+		.message_area {
+			.text-left {
+				text-align: left;
+				padding: 0 4%;
+			}
+		}
+		
+		.generated-content-wrapper {
+
+		}
+
+		.confirmation_buttons {
+			@include make-row(0);
+			margin-top: 5%; 
+			button {
+				display: block;
+				width: 120px;
+				margin: 1% auto;
+				@media (min-width: $screen-sm-min) { width: 120px; }
+
+				&:nth-child(odd){
+					@include button-orange(20px, 10px);
+				}
+				&:nth-child(even){
+					@include button-green(20px, 10px);
+				}
+			}
+		}
+
+		&.color-inset {
+			button {
+				width: 120px;
+			}
+		}
+	}
+}

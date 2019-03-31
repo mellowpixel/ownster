@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#info_content_wrapper	{	width:600px;
+							margin-left:60px;
+							padding-top:60px;	}
+							
+
+#content_preview_wrapper h1	{ 	}
+#content_preview_wrapper h2	{ 	}
+#content_preview_wrapper h3	{ 	}
+
+grey		{	color:#555;	}
+black		{	color:#000;	}
+green		{	color:#12B810;	}
+red			{	color:#F50;	}
+
+red_fill	{	background-color:#999;	}

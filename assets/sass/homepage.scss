@@ -1,0 +1,593 @@
+// @import '../bootstrap/stylesheets/_bootstrap-compass';
+@import 'bootstrap';
+@import 'general-style-config';
+@import 'header';
+@import 'footer';
+@import 'popup-window';
+
+.content-wrapper {
+	@include make-row(0);
+
+	#mobile-mob-screen-detector {
+		display: block;
+		@media (min-width: $screen-xs-min) {
+			display: none;	
+		}
+	}
+	#mobile-xs-screen-detector {
+
+		@media (min-width: $screen-xs-min) {
+			display: block;	
+		}
+		@media (min-width: $screen-sm-min) {
+			display: none;
+		}
+	}
+
+	.web-content{
+		display: none;
+		&.show-on-sm-scr {
+			@media (min-width: $screen-sm-min) {
+				display: block;
+			}	
+		}
+		@media (min-width: $screen-md-min) {
+			display: block;	
+		}
+	}
+
+	.mobile-content {
+		display: block;
+		&.show-on-sm-scr {
+			@media (min-width: $screen-sm-min) {
+				display: none;
+			}	
+		}
+		@media (min-width: $screen-md-min) {
+			display: none;
+		}
+	}
+
+	.main-banner,
+	.slider-section{
+		width: 100%;
+		position: relative;
+		.gallery-larg-yellow-corner-bottom-right {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			width: 25%;
+			max-width: 604px;
+			z-index: 99;
+			display: none;
+			@media (min-width: $screen-sm-min) { display: block; }
+		}
+	}
+
+	.homepage-slide-valentines_day {
+		@include make-row();
+		@include centered_content;
+		margin: 0 auto;
+		padding-bottom: 20px;
+		width: 100%;
+
+		.slide {
+			display: block;
+			img {
+				width: 100%;
+
+				&.banner-img-lg {
+					display: none;
+					@media (min-width: $screen-sm-min) { display: block; }
+					
+				}
+
+				&.banner-img-s {
+					display: block;
+					@media (min-width: $screen-sm-min) { display: none; }
+					
+				}
+			}
+		}
+
+		.bottom-wrapper {
+			display: block;
+			width: 100%;
+			padding-top: 20px;
+			&>span {
+
+				display: block;
+				width: 100%;
+				text-align: center;
+				@media (min-width: $screen-sm-min) { 
+					display: inline-block;
+					vertical-align: middle;
+					text-align: left;
+					width: auto;
+					&:nth-child(1){padding-left: 5%; }
+					&:nth-child(2){ margin-left: 1%; }
+				}
+			}
+
+			h3 {
+				@include header_look();
+				padding: 0px;
+				margin: 0px;
+				color: $offers-line-bg-color;
+				display: inline-block;
+				vertical-align: bottom;
+			}
+
+			.personalise-butt {
+				@include button-green(15px, 30px);
+				display: inline-block;
+				vertical-align: top;
+			}
+		}
+	}
+
+	.fotorama {
+		@include make-row();
+		@include centered_content;
+		margin: 0 auto;
+		
+		&.slider {
+			background: url(/assets/layout-img/yellow-coener-right-bottom.png) no-repeat bottom right;
+			background-size: 50%;
+			@media (min-width: $screen-xs-min) { background-size: 30%; }
+			@media (min-width: $screen-sm-min) { background: none; }
+		}
+		.mobile-link {
+			pointer-events: auto;
+			@media (min-width: $screen-sm-min) { pointer-events:none; }
+		}
+
+		.homepage-slide-1 {
+			padding: 0 2%;
+			
+			@media (min-width: $screen-md-min) {
+				padding: 0;
+			}
+
+			.slide {
+				&.img {
+					box-sizing: border-box;
+					width: 65%;
+					margin: 10px auto;
+					float: none;
+					max-width: 363px;
+					@media (min-width: $screen-xs-min) {
+						width: 35%;
+						float: left;
+					}
+
+					img {
+						width: 100%;
+						@media (min-width: $screen-sm-min) {
+							width: 95%;
+						}
+					}
+				}
+
+				&.description {
+					box-sizing: border-box;
+					width: 100%;
+					float: none;
+					text-align: center;
+					// background-color: #aaf;
+					float: none;
+					@media (min-width: $screen-xs-min) {
+						width: 64%;
+						float: right;
+						text-align: left;
+					}
+
+					.little-tip-text { font-size: 75%; }
+
+					h1,h2,h3,h4,h5,h6 {
+						text-transform: uppercase;
+						// font-size: 190%;
+						color: #ef7a32;
+						font-family: 'bebas_neue_regular';
+					}
+
+					h1 {
+						text-align: center;
+						font-size: 200%;
+
+						@media (min-width: $screen-xs-min) {
+							font-size: 275%;	
+							line-height: 100%;
+							margin-top: 50px;
+							text-align: left;
+						}
+						@media (min-width: $screen-sm-min) {
+							font-size: 350%;
+							line-height: 100%;
+							// margin-top: 50px;
+							
+						}
+						@media (min-width: $screen-md-min) {
+							font-size: 290%;
+							margin-top: 10%;
+						}
+						@media (min-width: $screen-lg-min) {
+							font-size: 290%; //340%
+						}
+					}
+
+					p {
+						// font-size: 100%;
+					}
+				}
+			}
+			
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				li {
+					display: inline-block;
+					vertical-align: top;
+					width: 49%;
+					
+					button {
+						pointer-events:auto;
+						height: 60px;
+						@media (min-width: $screen-xs-min) {
+							height: auto;
+						}
+					}
+					// font-size: 75%;
+
+					@media (min-width: $screen-xs-min) {
+						font-size: 89%;
+						width: 48%;
+						margin-top: 2%;
+					}
+					@media (min-width: $screen-sm-min) {
+						font-size: 100%;
+						width: 46%;
+						// margin-top: 5%;
+						margin-right: 2%;
+					}
+					@media (min-width: $screen-md-min) {
+						font-size: 100%;
+						width: 46%;
+						margin-top: 5%;
+						margin-right: 2%;
+					}
+					@media (min-width: $screen-lg-min) {
+						font-size: 100%;
+						width: 38%;
+						margin-top: 5%;
+						margin-right: 2%;
+					}			
+				}	
+			}
+			.show-hide {
+
+				&.show {
+					clear: both;
+					// background-color: #9f9;
+					display: block;
+					@media (min-width: $screen-xs-min) {
+						display: none;
+					}
+
+					button {
+						width: 65%;
+						padding-left: 0;
+						padding-right: 0;
+					}
+					text-align: center;
+				}
+				&.hide {
+					// background-color: #f99;
+					display: none;
+					@media (min-width: $screen-xs-min) {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	.centered {
+		@include centered_content;
+		margin: 0 auto;
+	}
+
+	.offers-line{
+		@include make-row(0);
+		background-color: $offers-line-bg-color;
+		text-align: center;
+		color: #fff;
+
+		padding: 4%;
+
+		@media (min-width: $screen-sm-min) { padding: 1% 0; }
+		/* @media (min-width: $screen-md-min) { property }
+		@media (min-width: $screen-lg-min) { property } */
+		
+		@mixin offergeneralstyle() {
+			text-transform: uppercase;
+			font-family: $default-font;
+			font-size: $font-size-h3;
+		}
+
+		h1{
+			@include offergeneralstyle();
+			font-size: $font-size-h4;
+
+			@media (min-width: $screen-xs-min) {
+				font-size: $font-size-h3;
+			}
+			@media (min-width: $screen-sm-min) {
+				font-size: $font-size-h2;
+				line-height: $font-size-h3;
+			}
+			@media (min-width: $screen-md-min) {
+				font-size: $font-size-h2;
+				
+			}
+			@media (min-width: $screen-lg-min) {
+				font-size: $font-size-h2;
+				
+			}
+		}
+
+		h3 {
+			@include offergeneralstyle();
+			font-size: $font-size-h5;
+
+			@media (min-width: $screen-xs-min) {
+				font-size: $font-size-h4;
+			}
+			@media (min-width: $screen-sm-min) {
+				font-size: $font-size-h4;
+			}
+			@media (min-width: $screen-md-min) {
+				font-size: $font-size-h3;
+			}
+			@media (min-width: $screen-lg-min) {
+				font-size: $font-size-h3;
+			}	
+		}
+
+		.centered {
+			border-top: solid thin lighten($offers-line-bg-color, 20%);
+			border-bottom: solid thin lighten($offers-line-bg-color, 20%);
+
+			padding: 0 0 20px 0;
+			@media (min-width: $screen-sm-min) { padding-bottom: 1%; }
+			
+		}
+
+		em {
+			font-style: normal;
+		}
+
+	}
+
+	.content.products {
+		@include make-row();
+		@include centered_content;
+		margin: 2% auto 0 auto;
+
+		.product-wrapper {
+
+			.product-picture-wrapper {
+				@include make-xs-column(12);
+				@include make-md-column(8,0);
+				
+				padding: 5%;
+				// @media (min-width: $screen-xs-min) { padding: 5%; }
+				@media (min-width: $screen-sm-min) { 
+					padding: 0;
+				}
+
+				text-align: center;
+				box-sizing: border-box;
+				
+				@include headers_style();
+				h1 {
+					margin: 3% 0;
+					text-align: center;
+					font-size: 200%;
+					line-height: 100%;
+
+					@media (min-width: $screen-xs-min) { 
+						font-size: 300%;
+						line-height: 100%;
+					}
+					@media (min-width: $screen-sm-min) { 
+						margin: 3% 0;
+						font-size: 340%;
+						text-align: right;
+					}
+					@media (min-width: $screen-md-min) { 
+						font-size: 300%;
+					}
+					@media (min-width: $screen-lg-min) { 
+						font-size: 340%;
+					}
+				}
+				p { 
+					position: relative;
+					margin: 4% 0;
+					text-align: center;
+					@media (min-width: $screen-sm-min) { 
+						position: absolute;
+						right: 0;
+						top: 49px;
+						text-align: right;
+					}
+					
+					@media (min-width: $screen-md-min) { 
+						top: 49px;
+					}
+
+					@media (min-width: $screen-lg-min) { 
+						top: 55px;
+					}
+				}
+
+				button {
+					@include button-orange(6%, 0);
+					width: 65%;
+					position: relative;
+					
+					@media (min-width: $screen-sm-min) { 
+						position: absolute;
+						right: 0;
+						top: 129px;
+						width: 25%;
+						padding: 2.5% 0;
+						font-size: 100%;
+					}
+
+					@media (min-width: $screen-md-min) { 
+						top: 109px;
+					}
+
+					@media (min-width: $screen-lg-min) { 
+						top: 129px;
+					}
+
+				}
+
+				img {
+					// margin-top: 10%;
+					width: 100%;
+					@media (min-width: $screen-sm-min) { 
+						margin-top: 20px;
+						width: 78%;
+					}
+				}
+			}
+
+			img {
+				@include img-responsive();
+			}
+		}
+		.menue-list-item{
+			@include make-xs-column(12);
+			@include make-sm-column(4,0); 
+
+			padding: 2%;
+			@media (min-width: $screen-sm-min) {
+				padding: 5px 0 5px 5px;
+			}
+
+			box-sizing: border-box;
+			img {
+				float: none;
+				margin: 0 auto;
+				width: 100%;
+				
+				@media (min-width: $screen-md-min) {
+					float: right;
+					width: 90%;
+					max-width: 264px;
+				}
+			}
+		}
+	}
+
+	.stage-process {
+		@include make-row();
+		@include centered_content();
+		margin: 5% auto 0 auto;
+		text-align: center;
+		font-weight: bold;
+		.web-content {
+			h5 {
+				font-weight: normal;
+				color: #aaa;
+				padding: 20px 0;
+			}
+
+			@include make-sm-column(12, 0);
+			img {
+				width: 100%;
+			}
+		}
+
+		.stage-unit {
+			@include make-xs-column(12);
+			text-align: center;
+			img {
+				float: none;
+				margin: 10px auto;
+				width: 40%;
+				max-width: 210px;
+			}
+		}
+	}
+
+	.reviews-section {
+		@include make-row(0);
+		background-color: $reviews-section-bg-color;
+		margin-top: 5%;
+		padding: 8% 0;
+		box-sizing: border-box;
+		text-align: left;
+		color: white;
+
+		.fotorama.review {
+			@include centered_content();
+		}
+
+		.review-content {
+			cursor: pointer;
+			@include make-xs-column(12,0);
+			@include make-sm-column(4,0); 
+			
+			a {
+				color: #fff;
+				font-family: $default-font;
+				box-sizing: border-box;
+			}
+			padding: 6%;
+
+			@media (min-width: $screen-xs-min) {
+				padding: 5%;
+			}
+
+			@media (min-width: $screen-sm-min) {
+				padding: 0;
+				padding-right: 50px;
+				// padding-left: 4%;
+				box-sizing: border-box;
+				// border: solid thin;
+
+				&:nth-child(4n){
+					padding-right: 0;
+				}
+			}
+
+			.review-text {
+				padding-right: 10%;
+				@media (min-width: $screen-sm-min) { padding: 0; }
+			}
+
+			.star {
+				color: yellow;
+				opacity: 1;
+				font-size: 150%;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

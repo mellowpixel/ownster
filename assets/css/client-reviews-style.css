@@ -1,0 +1,90 @@
+main div.center
+{
+	width: 800px;
+	margin: 40px auto 0px auto;
+}
+
+main div.center table:not(.details-wrapper table)
+{
+	font-size: 0.9em;
+	border-collapse: collapse;
+	margin: 40px auto 0px auto;
+}
+
+button.prev-page-butt,
+button.next-page-butt,
+button.gray-butt
+{
+	background-color: #ddd;
+	color: #555;
+	border:solid thin #aaa;
+	cursor: pointer;
+}
+
+main div.center table tr td:not(.details-wrapper table tr td)
+{
+	border: solid thin #ddd;
+	max-width: 240px;
+	padding: 10px;
+}
+
+.go-to-page-inp,
+.per-page-inp
+{
+	width: 30px;
+	text-align: center;
+}
+
+/*------------------------------------------*/
+
+.review_block {
+	display: inline-block;
+	width: 800px;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.rating{
+	display: block;
+	font-size: 1.2em;
+	color: #dd0;
+}
+
+.review-text{
+	margin-top: 15px;
+	display: block;;
+}
+
+.details-wrapper
+{
+	margin-top: 10px;
+	text-align: right;
+	font-size: 0.9em;
+	border-top: solid thin #aaa;
+}
+
+.details-wrapper table
+{
+	float: right;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.details-wrapper table tr td
+{
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

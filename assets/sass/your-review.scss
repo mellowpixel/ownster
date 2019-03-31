@@ -1,0 +1,79 @@
+@import 'bootstrap';
+@import 'general-style-config';
+@import 'header';
+@import 'footer';
+
+.content-wrapper {
+	@include make-row(0);
+	@include centered_content;
+	margin: 0 auto;
+
+	.centered {
+		@include headers_style();
+		min-height: 500px;
+		@include make-xs-column(12);
+		@include make-sm-column(12); 
+		@include make-md-column(12);
+		@include make-lg-column(12);
+
+		padding: 5%;
+		
+		@media (min-width: $screen-md-min) { padding: 0%; padding-bottom: 5%; }
+
+		text-align: center;
+
+		#thanx_msg{
+			display: none;
+			margin-top: 100px;
+			.buttons_wrapper {
+				#but1 {
+					@include button-green(20px, 30px);
+				}
+				#but2 {
+					@include button-orange(20px, 30px);
+				}
+			}
+		}
+
+		#rate-wrapper div#stars-wrapper{
+			display: inline-block;
+		}
+
+		#rate-wrapper div#stars-wrapper input[type='radio']{
+			display: none;
+		}
+
+		label.star {
+			font-size: 2.5em;
+			color: #ee0;
+			cursor: pointer;
+		}
+
+		#text_area_wrapper {
+			display: inline-block;
+			width: 500px;
+			height: 250px;
+			margin: 15px auto 25px auto;
+			overflow: hidden;
+		}
+
+		#html-text-area {
+			width: 450px;
+			height: 240px;
+			border:solid thin;
+			overflow: hidden;
+		}
+
+		#save-review-butt {
+			@include button-green(20px, 45px);
+		}
+
+		#error-message {
+			font-size: 0.8em;
+			color: #d00;
+			display: block;
+			margin-bottom: 0px;
+			padding: 0px;
+		}
+	}
+}

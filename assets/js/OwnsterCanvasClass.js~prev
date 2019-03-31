@@ -1,0 +1,59 @@
+
+function OwnsterCanvas(){
+	this.canvas = undefined;
+	this.ctx = undefined;
+	this.img_src = undefined;
+	this.tX = 0;
+	this.tY = 0;
+	this.Xa = 0;
+	this.Ya = 0;
+	this.scale = 1;
+	this.angle = 0;
+}
+
+OwnsterCanvas.prototype.touchImgHandler = function(touch_ev) {
+	this.Xa = touch_ev.originalEvent.touches[0].pageX;
+	this.Ya = touch_ev.originalEvent.touches[0].pageY;
+	// Prevent Page Scroll while moving
+	touch_ev.preventDefault();
+};
+
+OwnsterCanvas.prototype.clickImgHandler = function(click_ev) {
+	this.Xa = click_ev.pageX; 
+	this.Ya = click_ev.pageY;
+	// Prevent Page Scroll while moving
+	// click_ev.preventDefault();
+};
+
+OwnsterCanvas.prototype.moveImgHandler = function(move_ev) {
+	var scale_ratio  = this.canvas.width / $(this.canvas).width();
+	this.tX += Math.round((move_ev.pageX - this.Xa) * scale_ratio);
+	this.tY += Math.round((move_ev.pageY - this.Ya) * scale_ratio);
+	this.Xa = move_ev.pageX;	// Save position of the previous pixel to determine the direction of cursor
+	this.Ya = move_ev.pageY;
+	this.render();
+}
+
+OwnsterCanvas.prototype.zoom = function(scale){
+	if(this.scale + scale > 0){	
+		this.scale += scale;
+		this.render();
+	}
+}
+
+OwnsterCanvas.prototype.rotate = function(ang){
+	this.angle = this.angle + ang;
+	this.render();
+}
+
+OwnsterCanvas.prototype.render = function(){
+	ctx = this.canvas.getContext("2d");
+	ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+	ctx.save();
+	ctx.translate(this.tX, this.tY);
+	ctx.scale(this.scale, this.scale);
+	ctx.rotate( (Math.PI / 180) * this.angle );
+	ctx.drawImage(this.img_src, -this.img_src.width / 2, -this.img_src.height / 2 );
+	ctx.restore();
+}
+

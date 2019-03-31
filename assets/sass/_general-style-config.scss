@@ -1,0 +1,337 @@
+/* Fonts
+---------------- */
+@import url(http://fonts.googleapis.com/css?family=Adamina);
+
+@font-face {
+    font-family: 'bebas_neue_regular';
+    src: url('../Fonts/bebasneue_regular-webfont.eot');
+    src: url('../Fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('../Fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('../Fonts/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('../Fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Variables
+----------------------------------------------- */
+/* @debug "min-width: xs = "$screen-xs-min;
+@debug "min-width: sm = "$screen-sm-min;
+@debug "min-width: md = "$screen-md-min;
+@debug "min-width: lg = "$screen-lg-min; */
+
+
+$default-font: 'Adamina', serif;;
+$text-color: #333;
+$body-color: #fafafa;
+$color-lime-green: #54e805;
+$light-blue: #41c5d5;
+$yellow: #ffd300;
+$regular-butt-color: #ddd;
+$border-green: solid 1px #F6B518;
+$border-selected: solid 4px #F6B518;
+$border-gray: solid thin #ddd;
+$background-orange: #f8b605;
+$background-green: #83d08b;
+$notice-msg-color: #801515;
+
+/* Header
+-------------- */
+$header-background-color: #ffd300;
+$header-text-color: #fff;
+
+/* User Message
+----------------*/
+$user-message-normal-background: $light-blue;
+$user-message-normal-text-color: #fff;
+
+/* Back / Next navigation buttons
+----------------*/
+$navigation-button-back: lighten($user-message-normal-background, 38%);
+$navigation-button-next: lighten($user-message-normal-background, 32%);
+
+/* Bottom Panel 
+---------------- */
+$bottom-panel-background-color: $light-blue;
+$bottom-panel-text-color: #fff;
+
+/* 
+------------------- */
+$offers-line-bg-color: $light-blue;
+
+/* Reviews Section
+------------------- */
+$reviews-section-bg-color: $light-blue;
+
+//---------------------------------------------------------------------------------
+// 	M I X I N S
+//---------------------------------------------------------------------------------
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin default-shadow {
+	box-shadow: 3px 3px 6px 1px #ccc;
+	-webkit-box-shadow: 3px 3px 6px 1px #ccc;
+	-moz-box-shadow: 3px 3px 6px 1px #ccc;
+}
+
+@mixin animate( $keyframes-name, $duration, $timing, $iterations){
+	-webkit-animation-name: #{$keyframes-name};
+    -webkit-animation-duration: $duration;
+    -webkit-animation-timing-function: #{$timing};
+    -webkit-animation-iteration-count: #{$iterations};
+
+    -moz-animation-name: #{$keyframes-name};
+    -moz-animation-duration: $duration;
+    -moz-animation-timing-function: #{$timing};
+    -moz-animation-iteration-count: #{$iterations};
+
+    animation-name: #{$keyframes-name};
+    animation-duration: $duration;
+    animation-timing-function: #{$timing};
+    animation-iteration-count: #{$iterations}; 
+}
+
+@mixin fadein( $keyframes-name, $min_opacity, $max_opacity ){
+	@-moz-keyframes #{$keyframes-name} {  
+	    from { opacity: $min_opacity; }
+	    to { opacity: $max_opacity; }
+	}
+	@-webkit-keyframes #{$keyframes-name} {  
+	    from { opacity: $min_opacity; }
+	    to { opacity: $max_opacity; }
+	}
+	@keyframes #{$keyframes-name} {  
+	    from { opacity: $min_opacity; }
+	    to { opacity: $max_opacity; }
+	}
+}
+
+@mixin fadeout( $keyframes-name, $max_opacity, $min_opacity){
+	@-moz-keyframes #{$keyframes-name} {  
+	    from { opacity: $max_opacity; }
+	    to { opacity: $min_opacity; }
+	}
+	@-webkit-keyframes #{$keyframes-name} {  
+	    from { opacity: $max_opacity; }
+	    to { opacity: $min_opacity; }
+	}
+	@keyframes #{$keyframes-name} {  
+	    from { opacity: $max_opacity; }
+	    to { opacity: $min_opacity; }
+	}
+}
+
+@mixin wiggle-up-down( $keyframes-name, $bottom_min, $bottom_max ){
+	@-moz-keyframes #{$keyframes-name} {  
+	    0% { bottom: $bottom_min; }
+	    50% { bottom: $bottom_max; }
+	    100% { bottom: $bottom_min; }
+	}
+	@-webkit-keyframes #{$keyframes-name} {  
+	    0% { bottom: $bottom_min; }
+	    50% { bottom: $bottom_max; }
+	    100% { bottom: $bottom_min; }
+	}
+	@keyframes #{$keyframes-name} {  
+	    0% { bottom: $bottom_min; }
+	    50% { bottom: $bottom_max; }
+	    100% { bottom: $bottom_min; }
+	}
+}
+
+@mixin wiggle-side-to-side( $keyframes-name, $right_min, $right_max ){
+	@-moz-keyframes #{$keyframes-name} {  
+	    0% { right: $right_min; }
+	    50% { right: $right_max; }
+	    100% { right: $right_min; }
+	}
+	@-webkit-keyframes #{$keyframes-name} {  
+	    0% { right: $right_min; }
+	    50% { right: $right_max; }
+	    100% { right: $right_min; }
+	}
+	@keyframes #{$keyframes-name} {  
+	    0% { right: $right_min; }
+	    50% { right: $right_max; }
+	    100% { right: $right_min; }
+	}
+}
+
+@include fadein('fadein', 0, 1);
+@include fadeout('fadein', 1, 0);
+@include wiggle-up-down('wiggle-up-down', 10px, 20px);
+@include wiggle-side-to-side('wiggle-side-to-side', 10px, 15px);
+
+@include fadein('fadein', 0, 1);
+
+.fadein {
+	@include animate('fadein', 0.5s, ease-in-out, 1);
+}
+.fadeout {
+	@include animate('fadeout', 0.5s, ease-out, 1);
+}
+.wiggle-up-down {
+	@include animate('wiggle-up-down', 1s, ease-in-out, "infinite")
+}
+.wiggle-side-to-side {
+	@include animate('wiggle-side-to-side', 1s, ease-in-out, "infinite");
+}
+
+@mixin mob-device-block-behaviour{
+	float: none;
+	position: relative;
+	display: block;
+	right: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius !important;
+       -moz-border-radius: $radius !important;
+        	border-radius: $radius !important;
+}
+
+@mixin centered_content {
+	@media (min-width: $screen-xs-min) {
+		width: 100%;
+	}
+	@media (min-width: $screen-sm-min) {
+		width: 86%;
+	}
+	@media (min-width: $screen-md-min) {
+		width: 66%;
+	}
+}
+
+@mixin header-look(){
+	font-weight: normal;
+	// text-transform: uppercase;
+	color: #ef7a32;
+	font-family: 'bebas_neue_regular';
+}
+
+@mixin headers_style(){
+	h1,h2,h3,h4 {
+		@include header-look();
+		
+	}
+}
+
+@mixin max_logo_dimensions($width, $height){
+	max-width: $width;
+	max-height: $height;
+}
+
+@mixin button-green($padding-h: 8px, $padding-v: 8px){
+	@include button-variant(#fff, $background-green, $background-green);
+	@include button-size($padding-h, $padding-v, 100%, 100%, 0);
+}
+
+@mixin button-orange($padding-h: 8px, $padding-v: 8px){
+	@include button-variant(#fff, $background-orange, $background-orange);
+	@include button-size($padding-h, $padding-v, 100%, 100%, 0);
+}
+
+@mixin button-grey($padding-h: 8px, $padding-v: 8px){
+	@include button-variant(#555, #eee, #555);
+	@include button-size($padding-h, $padding-v, 100%, 100%, 0);
+}
+//---------------------------------------------------------------------------------
+// 	E L E M E N T S
+//---------------------------------------------------------------------------------
+
+button {
+	/* padding: 10%;
+	font-size: 120%;
+	line-height: 100%; */
+	color: $text-color;
+	border: none;
+	text-transform: uppercase;
+	font-family: $default-font;
+	// @include border-radius(0px);
+}
+
+html, body {
+	height: 100%;
+	background-color: #fff;
+	font-family: $default-font;
+}
+.page-wrapper {
+	@include container-fixed();
+	padding: 0;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: $text-color;
+	cursor: pointer;
+	&:hover {
+		color: $text-color;
+		text-decoration: none;
+	}
+}
+
+
+
+.brick {
+	// display: block;
+	padding: 6% 8%;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: $default-font;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+.bg-green { background-color: $background-green; }
+.bg-orange { background-color: $background-orange; }
+
+.notice-msg {
+	color: $notice-msg-color;
+}
+.success-msg {
+	color: $background-green;
+}
+
+.page-title-description-wrapper {
+	@include centered_content();
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 0px 20px;
+
+	@media (min-width: $screen-sm-min) { 
+		padding: 0;
+		margin-top: 10px;
+	}
+
+	@include headers_style();
+	text-align: left;
+}
+
+.tickcheck {
+	list-style: none;
+}
+.tickcheck:before {
+	content:"\2713\0020";
+	padding-right: 2px;
+	margin-left: -17px;
+	color: #ef7a32;
+}
+
+
+
+
+
+
+

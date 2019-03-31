@@ -1,0 +1,119 @@
+
+
+
+ ------------ 21:41 Function Begins 'submitOrderToEmail' -----------
+
+
+
+*  If Orders in cart exist. if($items) *
+$items = [{"021215_210932_ODLI":{"data":{"default_pic":{"url":"\/user_upload\/021215_210932_ODLI\/thumbnails\/Front_Sidecomplete.png","sidename":"Front"},"surface_id251":{"url":"\/user_upload\/021215_210932_ODLI\/Back.png","sidename":"Back"}},"quantity":1,"product_db_id":"3"}}]
+
+*  Processed orders. $orders_array = [{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]
+$orders = json_encode($orders_array)
+$orders = [{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]
+
+*  Save Order into 'completed_payments' table. *
+
+Fields:
+,itemsfirst_name,last_name,address_street,address_city,address_zip,address_country,payer_email,voucher_code,mc_gross,payment_date,order_number
+
+Values:
+,'[{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]''Dmitrijs','Uljanovs','Segewaldweg 55','Berlin','12557','United Kingdom','mellowpixels@gmail.com','2H80IQ9B',4.99,'2015-12-02 21:41:26','78019642'
+
+*  ERROR Saving Order into 'completed_payments' table. *
+
+Fields:
+,itemsfirst_name,last_name,address_street,address_city,address_zip,address_country,payer_email,voucher_code,mc_gross,payment_date,order_number
+
+Values:
+,'[{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]''Dmitrijs','Uljanovs','Segewaldweg 55','Berlin','12557','United Kingdom','mellowpixels@gmail.com','2H80IQ9B',4.99,'2015-12-02 21:41:26','78019642'
+
+Orders Array:
+[{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]
+
+
+ ------------ 22:18 Function Begins 'submitOrderToEmail' -----------
+
+
+*  If Orders in cart exist. if($items) *
+$items = [{"021215_210932_ODLI":{"data":{"default_pic":{"url":"\/user_upload\/021215_210932_ODLI\/thumbnails\/Front_Sidecomplete.png","sidename":"Front"},"surface_id251":{"url":"\/user_upload\/021215_210932_ODLI\/Back.png","sidename":"Back"}},"quantity":1,"product_db_id":"3"}}]
+
+*  Processed orders. $orders_array = [{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]
+$orders = json_encode($orders_array)
+$orders = [{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]
+
+*  Save Order into 'completed_payments' table. *
+
+Fields:
+itemsfirst_name,last_name,address_street,address_city,address_zip,address_country,payer_email,voucher_code,mc_gross,payment_date,order_number
+
+Values:
+'[{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]''Dmitrijs','Uljanovs','Segewaldweg 55','Berlin','12557','Germany','mellowpixels@gmail.com','2H80IQ9B',4.99,'2015-12-02 22:18:01','54382016'
+
+*  ERROR Saving Order into 'completed_payments' table. *
+
+Fields:
+itemsfirst_name,last_name,address_street,address_city,address_zip,address_country,payer_email,voucher_code,mc_gross,payment_date,order_number
+
+Values:
+'[{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]''Dmitrijs','Uljanovs','Segewaldweg 55','Berlin','12557','Germany','mellowpixels@gmail.com','2H80IQ9B',4.99,'2015-12-02 22:18:01','54382016'
+
+Orders Array:
+[{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]
+
+
+ ------------ 22:55 Function Begins 'submitOrderToEmail' -----------
+
+
+*  If Orders in cart exist. if($items) *
+$items = [{"021215_210932_ODLI":{"data":{"default_pic":{"url":"\/user_upload\/021215_210932_ODLI\/thumbnails\/Front_Sidecomplete.png","sidename":"Front"},"surface_id251":{"url":"\/user_upload\/021215_210932_ODLI\/Back.png","sidename":"Back"}},"quantity":1,"product_db_id":"3"}}]
+
+*  Processed orders. $orders_array = [{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]
+$orders = json_encode($orders_array)
+$orders = [{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]
+
+*  Save Order into 'completed_payments' table. *
+
+Fields:
+items,first_name,last_name,address_street,address_city,address_zip,address_country,payer_email,voucher_code,mc_gross,payment_date,order_number
+
+Values:
+'[{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]','Dmitrijs','Uljanovs','Segewaldweg 55','Berlin','12557','United Kingdom','mellowpixels@gmail.com','2H80IQ9B',4.99,'2015-12-02 22:55:26','64207135'
+
+
+ ------------ 23:39 Function Begins 'submitOrderToEmail' -----------
+
+
+*  If Orders in cart exist. if($items) *
+$items = [{"021215_210932_ODLI":{"data":{"default_pic":{"url":"\/user_upload\/021215_210932_ODLI\/thumbnails\/Front_Sidecomplete.png","sidename":"Front"},"surface_id251":{"url":"\/user_upload\/021215_210932_ODLI\/Back.png","sidename":"Back"}},"quantity":1,"product_db_id":"3"}}]
+
+*  Processed orders. $orders_array = [{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]
+$orders = json_encode($orders_array)
+$orders = [{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]
+
+*  Save Order into 'completed_payments' table. *
+
+Fields:
+items,first_name,last_name,address_street,address_city,address_zip,address_country,payer_email,voucher_code,mc_gross,payment_date,order_number
+
+Values:
+'Array','Dmitrijs','Uljanovs','Segewaldweg 55','Berlin','12557','Germany','mellowpixels@gmail.com','2H80IQ9B',4.99,'2015-12-02 23:39:29','70163945'
+
+
+ ------------ 23:40 Function Begins 'submitOrderToEmail' -----------
+
+
+*  If Orders in cart exist. if($items) *
+$items = [{"021215_210932_ODLI":{"data":{"default_pic":{"url":"\/user_upload\/021215_210932_ODLI\/thumbnails\/Front_Sidecomplete.png","sidename":"Front"},"surface_id251":{"url":"\/user_upload\/021215_210932_ODLI\/Back.png","sidename":"Back"}},"quantity":1,"product_db_id":"3"}}]
+
+*  Processed orders. $orders_array = [{"order_id":"021215_210932_ODLI","order_db_id":"3","order_qty":1,"order_date":"02\/12\/2015","item_price":"4.99","order_total_price":4.99,"product_name":"Ownster Wallet","product_thubnails":{"default_pic":null,"all_pics":[]}}]
+$orders = json_encode($orders_array)
+$orders = [{"item_id":"021215_210932_ODLI","qty":1}]
+
+*  Save Order into 'completed_payments' table. *
+
+Fields:
+items,first_name,last_name,address_street,address_city,address_zip,address_country,payer_email,voucher_code,mc_gross,payment_date,order_number
+
+Values:
+'[{"item_id":"021215_210932_ODLI","qty":1}]','Dmitrijs','Uljanovs','Segewaldweg 55','Berlin','12557','Germany','mellowpixels@gmail.com','2H80IQ9B',4.99,'2015-12-02 23:40:37','37216058'

@@ -1,0 +1,39 @@
+
+main div.center
+{
+	border: none;
+}
+
+#form-container
+{
+	width:700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#login_wrapper
+{
+	margin-left: 198px;
+	min-height: 40px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#form_wrapper
+{
+	width: 370px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title_container
+{
+	border-bottom: solid thin #aaa;
+	margin-bottom: 15px;
+}
+
+.title_text
+{
+	margin: 0px 0px 5px;
+}

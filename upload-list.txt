@@ -1,0 +1,31 @@
+Загрузить файлы:
+	* manager/add-product/index.php
+	* manager/occasions/
+	* personalize/index.php
+	* html-include/header.php
+	* html-include/occasions/
+	* occasions/
+	
+	* assets/js/cms_add_product.js
+	* assets/js/menu-toolbar.js
+	* assets/js/menu.js
+	* assets/js/WorkDeskSetup.js
+	* assets/js/main_products_list.js
+	* assets/js/main_customize.js
+	* assets/js/ScrollClass.js
+	* assets/js/main_occasions_manager.js
+	* assets/js/main_occasions.js
+
+	* assets/css/add-product-layout.css
+	* assets/css/personalise-page.css
+	* assets/css/occasions-manager.css
+	* assets/css/*
+	
+	* assets/php/ProductServer.php
+	* assets/php/SharedFunctions.php
+	* assets/php/occasions_server/
+	
+	* assets/layout-img/action-tools/orange/*
+	* assets/layout-img/action-tools/black/*
+	* assets/layout-img/occasions/
+	* assets/configs/

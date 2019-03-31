@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+#shopping_wrapper	{	float:left;
+						height:340px;
+						margin-top:85px;
+						margin-left:10px;
+						overflow:hidden;	}
+						
+#shopping_scrollable_page	{	margin-top:0px;
+								width:870px;
+									}
+
+.item_control		{	position:relative;
+						padding-top:10px;
+						clear:both;	}
+
+.ownster_owtline		{	position:absolute;
+							top:10px;
+							left:0px;
+							z-index:8888;	}
+
+img[name='thumb_img']	{	float:left;
+							margin-left:1px;
+							margin-top:1px;	}
+									
+#total_order	{	position:	absolute;
+					   right:	320px;
+					  bottom:	10px;
+				 font-weight:	bold;
+				   font-size:	20px;	}									
+
+.green_price	{	color:#393;	}
+
+#checkout_butt	{	position:	absolute;
+					   right:	100px;
+					  bottom:	-2px;	}
+					  
+#continue_shop_butt	{	position:	absolute;
+					   	left:	100px;
+					  	bottom:	-2px;	}						  
+						
+#quote_wrapper	{	position:	absolute;
+					    left:	720px;
+					     top:	60px;
+			       font-size:	11px;	}
+					
+.total_item		{ text-align:	right;}
+
+#empty_basket	{	color:#393;
+					font-size:24px;
+					
+					margin-top:100px;
+					margin-left:300px;
+					display:block;	}
+
+#create_new		{	cursor:pointer;
+					text-decoration:underline;
+					color:#393;
+					font-size:13px;	}
+
+#photo_upload	{	cursor:pointer;
+					text-decoration:underline;
+					color:#393;
+					font-size:13px;	}
+
+#select_category	{	cursor:pointer;
+						text-decoration:underline;
+						color:#393;
+						font-size:13px;	}
+									
+#shopping_scrollable_page p		{	margin-left:310px;
+									margin-top:50px;	}	
+									
+#cat_name_container	{	position:absolute;
+						top:55px;
+						left:50px;
+						width:900px;
+						border-bottom:solid thin #5dbb6b;	}
+									
+#you_have_items		{	
+						margin-left:0px;
+						color:#393;	}									
+									
+#price_caption		{	
+						margin-left:190px;
+						color:#393;	}										
+														
+									
+#quantity_caption	{	
+						margin-left:100px;
+						color:#393;	}
+
+
+#subtotal_caption	{	
+						margin-left:95px;
+						color:#393;	}
+
+
+#action_caption		{	
+						margin-left:95px;
+						color:#393;	}							
+									
+
+.price				{	margin-left:100px	}
+
+									
+.quantity			{	margin-left:100px;
+						width:20px;	}
+
+
+.subtotal			{	margin-left:90px;	}
+
+
+.remove				{	margin-left:80px;	}
+
+a[name='edit_template']	{	margin-left:525px;
+							cursor:pointer;
+							text-decoration:underline;
+							color:#393;	}								
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+																	

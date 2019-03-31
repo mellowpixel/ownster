@@ -1,0 +1,113 @@
+@import 'bootstrap';
+@import 'general-style-config';
+@import 'header';
+@import 'footer';
+
+.content-wrapper {
+	@include make-row(0);
+	@include centered_content();
+	margin: 1% auto 5% auto;
+	padding: 0 4%;
+	min-height: 400px;
+	
+	.form-row {
+		@include make-row(0);
+		padding: 0.5% 0;
+		label {
+			font-size: 75%;
+			text-transform: uppercase;
+
+			text-align: left;
+			@media (min-width: $screen-sm-min) { text-align: right; }
+			
+			@include make-xs-column(12,0);
+			@include make-sm-column(2); 
+			@include make-md-column(2);
+			@include make-lg-column(2);
+
+			@include make-xs-column-push(0);
+			@include make-sm-column-push(2); 
+			@include make-md-column-push(2);
+			@include make-lg-column-push(2);
+		}
+
+		input, select {
+			@include make-xs-column(12,0);
+			@include make-sm-column(4); 
+			@include make-md-column(4);
+			@include make-lg-column(4);
+
+			@include make-xs-column-push(0);
+			@include make-sm-column-push(2); 
+			@include make-md-column-push(2);
+			@include make-lg-column-push(2);
+		}
+
+		.help-block {
+			@include make-xs-column(12,0);
+			@include make-sm-column(6); 
+			@include make-md-column(6);
+			@include make-lg-column(6);
+			@include make-sm-column-push(2); 
+			@include make-md-column-push(2);
+			@include make-lg-column-push(2);
+		}
+
+		button {
+			@include make-xs-column(12,0);
+			@include make-sm-column(4); 
+			@include make-md-column(4);
+			@include make-lg-column(4);
+
+			@include make-xs-column-push(0);
+			@include make-sm-column-push(4); 
+			@include make-md-column-push(4);
+			@include make-lg-column-push(4);
+
+			&:nth-child(1){
+				@include button-green(3%, 6%);
+				font-size: 90%;
+			}
+
+			&:nth-child(2){
+				@include button-orange(6%, 6%);
+				font-size: 90%;
+			}
+		}
+	}
+
+	#signup-status-message,
+	#login-status-msg {
+		// text-align: center;
+		width: 70%;
+		margin: 0 auto;
+		.msg-title {
+			@include header-look;
+		}
+	}
+	#login-status-msg {
+		text-align: center;
+		margin-top: 10%;
+		.buttons-wrapper {
+			margin-top: 20px;
+			button {
+				@include button-green(20px, 30px);
+				font-size: 90%;
+				line-height: 90%;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

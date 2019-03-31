@@ -1,0 +1,68 @@
+/* 
+<section id="occasions-left-menu">
+	<div id="occasions-list-wrapper"></div>
+	<div id="new-occasion-toolbar"></div>
+</section>
+
+<section id="product-templates-list"></section> */
+#occasions-left-menu,
+#product-templates-list {
+  display: inline-block;
+  vertical-align: top;
+  border: solid thin #aaa;
+  min-height: 500px; }
+
+#occasions-left-menu {
+  width: 30%; }
+
+#product-templates-list {
+  width: 65%; }
+
+#product-templates-list #savechanges-panel {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: solid thin #aaa; }
+#product-templates-list .product-name {
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: solid 1px #555;
+  margin-top: 20px; }
+#product-templates-list .single-template-wrapper {
+  width: 100%;
+  margin-top: 20px;
+  border-bottom: dashed thin #aaa; }
+  #product-templates-list .single-template-wrapper .templ-preview-img {
+    width: 60%; }
+  #product-templates-list .single-template-wrapper span {
+    display: inline-block;
+    vertical-align: top;
+    width: 38%;
+    text-align: right; }
+    #product-templates-list .single-template-wrapper span .assign-occasion-select {
+      margin-top: 10px;
+      width: 90%;
+      min-height: 120px; }
+
+#occasions-left-menu #new-occasion-toolbar {
+  padding: 10px 5px 10px 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: solid thin #aaa; }
+  #occasions-left-menu #new-occasion-toolbar input {
+    width: 60%; }
+  #occasions-left-menu #new-occasion-toolbar button {
+    width: 35%; }
+#occasions-left-menu #occasions-list-wrapper {
+  margin-top: 20px;
+  width: 100%; }
+  #occasions-left-menu #occasions-list-wrapper #occasions-list-table th {
+    font-size: 80%; }
+  #occasions-left-menu #occasions-list-wrapper #occasions-list-table .place-input {
+    width: 20px; }
+  #occasions-left-menu #occasions-list-wrapper #occasions-list-table .name-input {
+    width: 100px; }
+  #occasions-left-menu #occasions-list-wrapper #occasions-list-table .link-input {
+    width: 70px; }
+
+/*# sourceMappingURL=occasions-manager.css.map */

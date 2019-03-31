@@ -1,0 +1,240 @@
+
+footer {
+	
+	position: relative;
+	// min-height: 224px;
+	
+	.footer-content {
+		@include make-row(0);
+		@include centered_content;
+		margin: 0 auto;
+		clear: both;
+		
+		padding: 0 4%;
+		@media (min-width: $screen-xs-min) {
+			padding: 0 4%;
+		}
+		@media (min-width: $screen-sm-min) {
+			padding: 0 4%;
+		}
+		@media (min-width: $screen-md-min) {
+			padding: 0;
+		}
+		@media (min-width: $screen-lg-min) {
+			padding: 0;
+		}
+
+
+		em {
+			font-style: normal;
+			color: #ef7a32;
+		}
+
+		.payment-methods {
+			@include make-row(0);
+			// text-align: center;
+			color: $background-orange;
+			.center-aligned {
+				margin: 0 auto;
+				text-align: center;
+
+				em {
+					
+				}
+
+				img { 
+					float: none;
+					width: 70%;
+					@media (min-width: $screen-sm-min) { width: 40%; }
+				}
+			}
+		}
+
+		.seo-text {
+			@include make-row(0);
+			padding: 1% 2%;
+			box-sizing: border-box;
+			
+			text-align: center;
+		}
+
+		.bottom-row {
+			@include make-row(0);
+			position: relative;
+			margin-top: 5%;
+			.footer-links {
+				font-size: 85%;
+				color: #bebdbd; // Copyrights text
+				
+				@include make-xs-column(12,0);
+				@include make-sm-column(12,0); 
+				@include make-md-column(8,0);
+				@include make-lg-column(7,0);
+				text-align: center;
+
+				@media (min-width: $screen-md-min) {
+					text-align: left;
+					font-size: 75%;
+				}
+				@media (min-width: $screen-lg-min) {
+					font-size: 85%;
+				}
+				
+				ul {
+					padding: 0;
+					margin: 0;
+					list-style: none;
+					color: #666;
+					li {
+						display: inline-block;
+						padding: 0 2%;
+						margin-top: 5%;
+						border-left: solid thin #333;
+						text-align: center;
+
+						@media (min-width: $screen-xs-min) { margin-top: 5%; }
+						@media (min-width: $screen-sm-min) { margin: 1%; }
+						@media (min-width: $screen-md-min) {
+							text-align: left;
+							margin: 0;
+						}
+
+						&:nth-child(1) {
+							border:none;
+							padding-left: 0; 
+						}
+
+						&:nth-child(-1) {	
+							padding-right: 0; 
+						}
+					}
+				}
+			}
+
+			.social-media {
+				
+				// @include make-sm-column-offset(3);
+				@include make-xs-column(12,0);
+				@include make-sm-column(12,0); 
+				@include make-md-column(4,0);
+				@include make-lg-column(5,0);
+
+				
+				/* @include make-md-column-pull(5);
+				@include make-lg-column-pull(5); */
+
+				margin-top: 5%;
+				
+				@media (min-width: $screen-xs-min) {
+					margin-top: 5%;
+				}
+				@media (min-width: $screen-sm-min) {
+					margin-top: 1%;
+				}
+				@media (min-width: $screen-md-min) {
+					margin: 0;
+				}
+				@media (min-width: $screen-lg-min) {
+					margin: 0;
+				}
+				ul {
+					padding: 0;
+					margin: 0;
+					list-style: none;
+					width: 100%;
+					text-align: center;
+
+					@media (min-width: $screen-xs-min) {
+						width: 100%;
+					}
+					@media (min-width: $screen-sm-min) {
+						width: 50%;
+						margin: 0 auto;
+					}
+					@media (min-width: $screen-md-min) {
+						width: 100%;
+					}
+					@media (min-width: $screen-lg-min) {
+						width: 100%;
+					}
+
+					li {
+						display: inline-block;
+						width: 15%;
+						img {
+							width: 100%;
+							max-width: 78px;
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+	.footer-decor-top {
+		/* position: absolute;
+		top: 0px;
+		left: 0px; */
+		float: left;
+		width: 100%;
+		
+		@include max_logo_dimensions(1125px, 222px);
+
+		@media (min-width: $screen-xs-min) {
+			width: 100%;
+			@include max_logo_dimensions(1125px, 222px);		
+		}
+		@media (min-width: $screen-sm-min) {
+			width: 45.9%;
+			@include max_logo_dimensions(1125px, 222px);
+		}
+		@media (min-width: $screen-md-min) {
+			width: 45.9%;
+			@include max_logo_dimensions(1125px, 222px);
+		}
+		@media (min-width: $screen-lg-min) {
+			width: 45.9%;
+			@include max_logo_dimensions(1125px, 222px);
+		}
+	}
+
+	.footer-decor-bottom {
+		clear: both;
+		float: right;
+		bottom: 0px;
+		// right: 0px;
+		width: 100%;
+		
+		@include max_logo_dimensions(609px, 132px);
+
+		@media (min-width: $screen-xs-min) {
+			width: 100%;
+			@include max_logo_dimensions(609px, 132px);		
+		}
+		@media (min-width: $screen-sm-min) {
+			width: 25.26%;
+			@include max_logo_dimensions(609px, 132px);
+		}
+		@media (min-width: $screen-md-min) {
+			width: 25.26%;
+			@include max_logo_dimensions(609px, 132px);
+		}
+		@media (min-width: $screen-lg-min) {
+			width: 25.26%;
+			@include max_logo_dimensions(609px, 132px);
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

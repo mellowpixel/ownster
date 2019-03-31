@@ -1,0 +1,239 @@
+/* Fonts
+---------------- */
+@import url(http://fonts.googleapis.com/css?family=Adamina);
+
+@font-face {
+    font-family: 'bebas_neue_regular';
+    src: url('../Fonts/bebasneue_regular-webfont.eot');
+    src: url('../Fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('../Fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('../Fonts/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('../Fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Variables
+----------------------------------------------- */
+/* @debug "min-width: xs = "$screen-xs-min;
+@debug "min-width: sm = "$screen-sm-min;
+@debug "min-width: md = "$screen-md-min;
+@debug "min-width: lg = "$screen-lg-min; */
+
+
+$default-font: 'Adamina', serif;;
+$text-color: #333;
+$body-color: #fafafa;
+$color-lime-green: #54e805;
+$light-blue: #41c5d5;
+$yellow: #ffd300;
+$regular-butt-color: #ddd;
+$border-green: solid 1px #277402;
+$border-selected: solid 3px $color-lime-green;
+$border-gray: solid thin #ddd;
+$background-orange: #f8b605;
+$background-green: #83d08b;
+$notice-msg-color: #801515;
+
+/* Header
+-------------- */
+$header-background-color: #ffd300;
+$header-text-color: #fff;
+
+/* User Message
+----------------*/
+$user-message-normal-background: $light-blue;
+$user-message-normal-text-color: #fff;
+
+/* Back / Next navigation buttons
+----------------*/
+$navigation-button-back: lighten($user-message-normal-background, 38%);
+$navigation-button-next: lighten($user-message-normal-background, 32%);
+
+/* Bottom Panel 
+---------------- */
+$bottom-panel-background-color: $light-blue;
+$bottom-panel-text-color: #fff;
+
+/* 
+------------------- */
+$offers-line-bg-color: $light-blue;
+
+/* Reviews Section
+------------------- */
+$reviews-section-bg-color: $light-blue;
+
+//---------------------------------------------------------------------------------
+// 	M I X I N S
+//---------------------------------------------------------------------------------
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin default-shadow {
+	box-shadow: 3px 3px 6px 1px #aaa;
+	-webkit-box-shadow: 3px 3px 6px 1px #aaa;
+	-moz-box-shadow: 3px 3px 6px 1px #aaa;
+}
+
+@mixin animate( $keyframes-name, $duration, $timing, $iterations){
+	-webkit-animation-name: #{$keyframes-name};
+    -webkit-animation-duration: $duration;
+    -webkit-animation-timing-function: #{$timing};
+    -webkit-animation-iteration-count: #{$iterations};
+
+    -moz-animation-name: #{$keyframes-name};
+    -moz-animation-duration: $duration;
+    -moz-animation-timing-function: #{$timing};
+    -moz-animation-iteration-count: #{$iterations};
+
+    animation-name: #{$keyframes-name};
+    animation-duration: $duration;
+    animation-timing-function: #{$timing};
+    animation-iteration-count: #{$iterations}; 
+}
+
+@mixin fadein( $keyframes-name, $min_opacity, $max_opacity ){
+	@-moz-keyframes #{$keyframes-name} {  
+	    from { opacity: $min_opacity; }
+	    to { opacity: $max_opacity; }
+	}
+	@-webkit-keyframes #{$keyframes-name} {  
+	    from { opacity: $min_opacity; }
+	    to { opacity: $max_opacity; }
+	}
+	@keyframes #{$keyframes-name} {  
+	    from { opacity: $min_opacity; }
+	    to { opacity: $max_opacity; }
+	}
+}
+
+@include fadein('fadein', 0, 1);
+
+.fadein {
+	@include animate('fadein', 0.5s, ease-in-out, 1);
+}
+
+@mixin mob-device-block-behaviour{
+	float: none;
+	position: relative;
+	display: block;
+	right: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius !important;
+       -moz-border-radius: $radius !important;
+        	border-radius: $radius !important;
+}
+
+@mixin centered_content {
+	@media (min-width: $screen-xs-min) {
+		width: 100%;
+	}
+	@media (min-width: $screen-sm-min) {
+		width: 86%;
+	}
+	@media (min-width: $screen-md-min) {
+		width: 66%;
+	}
+	@media (min-width: $screen-lg-min) {
+		width: 66%;
+	}
+}
+
+@mixin header-look(){
+	font-weight: normal;
+	// text-transform: uppercase;
+	color: #ef7a32;
+	font-family: 'bebas_neue_regular';
+}
+
+@mixin headers_style(){
+	h1,h2,h3,h4 {
+		@include header-look();
+	}
+}
+
+@mixin max_logo_dimensions($width, $height){
+	max-width: $width;
+	max-height: $height;
+}
+
+@mixin button-green($padding-h: 8px, $padding-v: 8px){
+	@include button-variant(#fff, $background-green, $background-green);
+	@include button-size($padding-h, $padding-v, 100%, 100%, 0);
+}
+
+@mixin button-orange($padding-h: 8px, $padding-v: 8px){
+	@include button-variant(#fff, $background-orange, $background-orange);
+	@include button-size($padding-h, $padding-v, 100%, 100%, 0);
+}
+//---------------------------------------------------------------------------------
+// 	E L E M E N T S
+//---------------------------------------------------------------------------------
+
+button {
+	/* padding: 10%;
+	font-size: 120%;
+	line-height: 100%; */
+	color: $text-color;
+	border: none;
+	text-transform: uppercase;
+	font-family: $default-font;
+	// @include border-radius(0px);
+}
+
+html, body {
+	height: 100%;
+	background-color: #fff;
+	font-family: $default-font;
+}
+.page-wrapper {
+	@include container-fixed();
+	padding: 0;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: $text-color;
+	cursor: pointer;
+	&:hover {
+		color: $text-color;
+		text-decoration: none;
+	}
+}
+
+
+
+.brick {
+	// display: block;
+	padding: 6% 8%;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: $default-font;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+.bg-green { background-color: $background-green; }
+.bg-orange { background-color: $background-orange; }
+
+.notice-msg {
+	color: $notice-msg-color;
+}
+.success-msg {
+	color: $background-green;
+}
+
+

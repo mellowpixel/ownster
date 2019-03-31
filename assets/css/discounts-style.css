@@ -1,0 +1,97 @@
+main div.center
+{
+	width: 800px;
+	margin: 20px auto 0px auto;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin: 20px auto 40px auto;
+	background-color: #eee;
+}
+
+table tr td
+{
+	text-align: right;
+	/*border:solid thin #aaa;*/
+}
+
+input[name='qty-values'],
+input[name='price-value']
+{
+	width: 30px;
+}
+
+.gap{
+	width: 30px;
+}
+
+/*----------------------------------------------------*/
+
+.scheme-wrapper
+{
+	display: inline-block;
+	width: 800px;
+	margin: 5px auto 5px auto;
+	border: solid thin #aaa;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.scheme-wrapper span
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 0px 0px 25px;
+}
+
+.scheme-wrapper span h3
+{
+	margin: 0px;
+}
+.scheme-wrapper ul
+{
+	display: inline-block;
+	vertical-align: center;
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 0px 20px;
+}
+
+.scheme-wrapper ul li
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.d-script div a{
+	margin-left: 10px;
+}
+
+.d-script div{
+	width: 300px;
+}
+
+ul.discount-script
+{
+	width: 150px;
+	padding: 0px;
+	padding-left: 30px;
+}
+
+.products-list-wrap ul{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+.products-list-wrap{
+	width: 200px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+
+
+
+

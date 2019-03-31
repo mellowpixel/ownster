@@ -1,0 +1,27 @@
+/* Media Variables */
+$width-xl: 1280;
+$width-l: 1100;
+$width-m: 980;
+$width-s: 780;
+$width-xs: 720;
+$width-xxs: 580;
+// $width-: ;
+
+$media-all-xl: 'all and (max-width: '+$width-xl+'px)';
+$media-all-l: 'all and (max-width: '+$width-l+'px)';
+$media-all-m: 'all and (max-width: '+$width-m+'px)';
+$media-all-s: 'all and (max-width: '+$width-s+'px)';
+$media-all-xs: 'all and (max-width: '+$width-xs+'px)';
+$media-all-xxs: 'all and (max-width: '+$width-xxs+'px)';
+$media-all-above-medium: 'all and (min-width: 721px) and (min-device-width: 980px)';
+$media-smartphone: 'only screen and ( min-device-width: 320px ) and (max-device-width: 480px)';
+$media-tablet: 'only screen and (min-device-width : 768px) and (max-device-width : 1024px)';
+
+@mixin mob-device-block-behaviour{
+	float: none;
+	position: relative;
+	display: block;
+	right: auto;
+	margin-left: auto;
+	margin-right: auto;
+}

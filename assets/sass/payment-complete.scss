@@ -1,0 +1,26 @@
+@import 'bootstrap';
+@import 'general-style-config';
+@import 'header';
+@import 'footer';
+
+.content-wrapper {
+	@include make-row(0);
+	@include centered_content;
+	margin: 0 auto;
+
+	.centered {
+		min-height: 500px;
+		min-height: 60vh;
+		width: 90%;
+		margin: 0 auto;
+		@media (min-width: $screen-sm-min) { width: 55%; }
+		@media (min-width: $screen-md-min) { width: 48%; }
+		
+		text-align: center;
+		@include headers_style;
+
+		.addr-block {
+			font-weight: bold;
+		}
+	}
+}

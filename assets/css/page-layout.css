@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster&subset=latin);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400italic&subset=cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
+
+body {	margin: 0px;
+		padding: 0px;
+		width: 100%;
+		color: #4f575e;	}
+
+header { position: relative;
+		 height: 80px;
+		 width: 100%;
+		 background-color: #555;	}
+
+header nav	{ position: absolute;
+			  bottom: 0px;
+				width: 100%;}		 
+
+header nav ul 	{	margin: 0px;
+					padding: 0px;
+					margin-left: 10px;
+					text-align: center; }
+
+header nav ul li {	display: inline-block;
+					padding: 5px 20px 14px 20px;
+					margin-left: 1px;
+					height: 15px;
+					background-color: #ddd;
+					font-family: 'Lobster', cursive;
+					font-style: normal;
+					font-size: 1.2rem;
+					border-top-right-radius: 5px;
+					border-top-left-radius: 5px; }
+
+@media all and (max-width: 1160px){
+	header nav ul li{
+		padding: 4px 15px 10px 15px;
+		height: 12px;
+		font-size: 1rem;
+		border-top-right-radius: 3px;
+		border-top-left-radius: 3px; 
+	}
+}
+
+@media all and (max-width: 950px){
+	header nav ul li{
+		padding: 4px 10px 7px 10px;
+		height: 12px;
+		font-size: 0.9rem;
+		border-top-right-radius: 3px;
+		border-top-left-radius: 3px; 
+	}
+}
+
+header nav ul li.active-page-tab {	background-color: #fff;	}
+
+header nav ul li a	{	text-decoration: none;
+						color: #555;	}
+
+main div.center
+{
+	width: 980px;
+	margin: 0px auto 40px auto;
+	display: block;
+	position: relative;
+	/*background-color: #fafafa;*/
+	padding: 20px;
+	/*box-shadow: 2px 2px 4px #aaa;*/
+}
+
+.close_butt {
+	position: absolute;
+	top:10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#statuswrapper {
+	position: relative;
+	visibility: hidden;
+	border: solid thin #aaa;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+#details{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#message {
+	text-align: left;
+}
+.status-wait {
+	color: #66d;
+	-webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+}
+.status-ok {
+	color: #0a0;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1;}
+    50% { opacity: 0.2;}
+    100% { opacity: 1;}
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1;}
+    50% { opacity: 0.2;}
+    100% { opacity: 1;}
+}
+
+@keyframes blinker {  
+    0% { opacity: 1;}
+    50% { opacity: 0.2;}
+    100% { opacity: 1;}
+}
+
+#session-controls-wrapper {
+	width: 100%;
+	height: 30px;
+	padding: 0px 10px;
+	box-sizing:border-box;
+	color: #eee;
+	text-align: right;
+	font-family: Century Gothic, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 0.9em;
+}
+
+#session-controls-wrapper a{
+	cursor: pointer;
+	text-decoration: none;
+	color: #eee;
+}
+
+.big-green-button
+{
+	font-family: 'Lobster';
+	font-style: normal;
+	font-size: 1.5em;
+	text-align: center;
+	border-radius: 3px;
+	padding: 5px 15px 5px 15px;
+	border: solid thin #fff;
+	color: #445555;
+	background: #bfb;
+	cursor: pointer;
+}
+

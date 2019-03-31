@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+main div.center h1,
+main div.center h2,
+main div.center h3,
+main div.center h4
+{
+	font-family:"Lobster";
+	color: #555;
+	margin: .5em 0em .5em 0em;
+	text-align:center;
+}
+
+main div.center div.message { margin-bottom: 40px; }
+
+main div.center div.product-preview-container,
+main div.center div#wallet_details_wrapper
+{
+	width: 486px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+main div.center div#wallet_details_wrapper
+{
+
+}
+	
+#wallet_details_wrapper ul#product_details
+{
+	padding: 0px;
+	margin-left: 50px;
+}								
+
+div.buttons_wrapper
+{
+	margin-top: 40px;
+	text-align: center;
+}
+
+#thumb_img { max-width:490px; }
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+body {font-family:Century Gothic, Arial, Helvetica, sans-serif;
+			font-size:0.8em;}
+
+#app_wrapp	{	margin-left:auto;
+				margin-right:auto;
+				margin-top:50px;
+				width: 90%;	}
+
+#voucher_entries	{	width:100%;
+						margin-left:auto;
+						margin-right:auto;
+						/*padding: 15px;*/
+						text-align: left;
+						line-height: 3em;
+						border: solid thin #aaa;
+						box-sizing: border-box;
+					}
+
+#voucher_entries input[type='text']:not(#voucher-name)	{	width:30px;	}
+
+.input-fields-table { width: 100%; }
+.input-fields-table tr td { padding-left:4px; border-left: solid thin #ddd; }
+.input-fields-table tr td:nth-child(1) { border: none; }
+
+#search-wrapper { margin-top: 20px; }
+
+.popup-window {
+	width: 80%;
+	height: 150px;
+	position: fixed;
+	top: 100px;
+	left: 10%;
+	background-color: #fff;
+	box-shadow: 5px 5px 25px #555; 
+	padding: 5px 5px 5px 30px;
+	display: none;;
+}
+
+.popup-window .output-wrapper {
+	width: 100%;
+	position: relative;
+}
+
+.popup-window .output-wrapper table {
+	width: 100%;
+	margin-top: 40px;
+}
+
+.popup-window button {
+	position: absolute;
+	width: 100px;
+	left: 50%;
+	margin-left: -50px;
+	bottom: 10px;
+}
+
+#voucher-name { text-transform: uppercase; }
+
+#expiration_date		{	width:80px !important	}
+
+#voucher_codes_wrap		{	width:100%; margin-top: 40px; }
+
+#voucher_codes_wrap td	{	
+							padding-left:10px;	}
+
+#voucher_codes_wrap td:nth-child(1){
+	width: 30px;
+}
+#voucher_codes_wrap td:nth-child(2){
+	width: 150px;
+}
+#voucher_codes_wrap td:nth-child(3){
+	width: 150px;
+}
+#voucher_codes_wrap td:nth-child(4){
+	width: 40px;
+}
+#voucher_codes_wrap td:nth-child(6){
+	width: 50px;
+}
+
+#product-select	{
+	width: 130px;
+}
+
+.vouch_owner_inp		{	border:none;
+							background:none;
+							width:120px;	}
+							
+.vouch_owner_inp:focus		{	border:none;
+								background:#CFC;	}
+								
+.vouch_owner_inp:hover		{	border:none;
+								background:#CFC;	}
+								
+.vouch_code		{	font-size:14px;
+					font-weight:bold;
+					color:#090;	}
+					
+.datecreated	{ font-size: 90%; }
+
+.voucher_sent	{	background:#FFC;	}
+
+.voucher_redeemed	{	background:#CFC;	}
+
+.expired		{	background-color:#f99;	}
+
+#delete_used		{	display:inline-block;
+						cursor:pointer;
+						text-decoration:underline;
+						color:#060;}
+
+.remove_butt	{	display:inline-block;
+					width:10px;
+					height:10px;
+					background-image:url(../layoutimg2/ui/deletebut2.png);
+					cursor:pointer;	}

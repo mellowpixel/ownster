@@ -1,0 +1,70 @@
+User-agent: Googlebot
+Allow: /
+Disallow: /manager/
+Disallow: /review/
+Disallow: /personalize/
+
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /manager/
+
+User-agent: Googlebot-News
+Allow: /
+Disallow: /manager/
+Disallow: /review/
+Disallow: /personalize/
+
+User-agent: Googlebot-Mobile
+Allow: /
+Disallow: /manager/
+Disallow: /review/
+Disallow: /personalize/
+
+User-agent: Mediapartners-Google
+Allow: /
+Disallow: /manager/
+Disallow: /review/
+Disallow: /personalize/
+
+User-agent: Yandex
+Allow: /
+Disallow: /manager/
+Disallow: /review/
+Disallow: /personalize/
+Host: ownoster.co.uk
+
+User-agent: YandexBot
+Allow: /
+Disallow: /manager/
+Disallow: /review/
+Disallow: /personalize/
+
+User-agent: YandexImages
+Allow: /
+Disallow: /manager/
+
+User-agent: StackRambler
+Allow: /
+Disallow: /manager/
+Disallow: /review/
+Disallow: /personalize/
+
+User-agent: bingbot
+Allow: /
+Disallow: /manager/
+Disallow: /review/
+Disallow: /personalize/
+
+User-agent: Yahoo!
+Allow: /
+Disallow: /manager/
+Disallow: /review/
+Disallow: /personalize/
+
+User-agent: *
+Allow: /
+Disallow: /manager/
+Disallow: /review/
+Disallow: /personalize/
+
+Sitemap: http://www.ownster.co.uk/sitemap.xml

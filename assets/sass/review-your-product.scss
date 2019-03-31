@@ -1,0 +1,55 @@
+@import 'bootstrap';
+@import 'general-style-config';
+@import 'header';
+@import 'footer';
+
+.content-wrapper {
+	@include make-row(0);
+	@include headers_style();
+	.centered {
+		@include make-row(0);
+		@include centered_content;
+		margin: 4% auto;
+
+		.message {
+			@include make-xs-column(12);
+			@include make-sm-column(12); 
+			@include make-md-column(12);
+			@include make-md-column(12);
+		}
+
+		.product-preview-container {
+			@include make-xs-column(12);
+			@include make-sm-column(7); 
+			@include make-md-column(7);
+			@include make-md-column(7);
+			img {
+				width: 100%;
+			}
+		}
+
+		#wallet_details_wrapper {
+			@include make-xs-column(12);
+			@include make-sm-column(5); 
+			@include make-md-column(5);
+			@include make-md-column(5);
+			margin-top: 2%;	
+
+			.buttons_wrapper {
+				
+				#add_to_cart_butt {
+					margin: 5% auto;
+					@extend .brick;
+					display: block;
+					padding: 6% 0;
+					background-color: $background-green;
+					
+					width: 90%;
+					@media (min-width: $screen-sm-min) {
+						width: 85%;
+					}
+				}
+			}
+		}
+	}
+}

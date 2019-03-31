@@ -1,0 +1,77 @@
+@import 'bootstrap';
+@import 'general-style-config';
+@import 'header';
+@import 'footer';
+
+.content-wrapper {
+	@include make-row(0);
+	@include headers_style();
+
+	.reviews-wrapper {
+		// @include centered_content;
+		
+		@media (min-width: $screen-xs-min) {
+			width: 100%;
+		}
+		@media (min-width: $screen-sm-min) {
+			width: 46%;
+		}
+		@media (min-width: $screen-md-min) {
+			width: 30%;
+		}
+		@media (min-width: $screen-lg-min) {
+			width: 30%;
+		}
+
+		margin: 0 auto;
+
+		.review-content {
+			@include make-row(0);
+			padding: 2% 4%;
+
+			@media (min-width: $screen-md-min) {
+				padding: 2% 0;
+			}
+
+			.user-info {
+				@include make-xs-column(12);
+				@include make-sm-column(12); 
+				@include make-md-column(12);
+				@include make-md-column(12);
+
+				text-align: center;
+				/* @media (min-width: $screen-md-min) {
+					text-align: left;
+				} */
+			}
+
+			.user-text {
+				@include make-xs-column(12);
+				@include make-sm-column(12); 
+				@include make-md-column(12);
+				@include make-md-column(12);
+			}
+		}
+
+		#pager {
+			@include make-row(0);
+			width: 100%;
+			@media (min-width: $screen-md-min) {
+				width: 100%;
+			}
+
+			margin: 5% auto;
+			
+			text-align: center;
+			
+			.pages {
+				width: 9%;
+			}
+
+			button {
+				background: none;
+				min-width: 45%;
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+
+#rate-wrapper div#stars-wrapper{
+	display: inline-block;
+}
+
+#rate-wrapper div#stars-wrapper input[type='radio']{
+	display: none;
+}
+
+label.star{
+	font-size: 2.5em;
+	color: #ee0;
+	cursor: pointer;
+}
+
+main div.center
+{
+	text-align: center;
+}
+
+main div.center div#text_area_wrapper
+{
+	display: inline-block;
+	width: 500px;
+	height: 250px;
+	margin: 15px auto 25px auto;
+	overflow: hidden;
+}
+
+main div.center
+{
+	min-height: 630px;
+}
+
+#html-text-area
+{
+	width: 450px;
+	height: 240px;
+	border:solid thin;
+	overflow: hidden;
+}
+
+#error-message
+{
+	font-size: 0.8em;
+	color: #d00;
+	display: block;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+
+
+

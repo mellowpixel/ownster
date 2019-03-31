@@ -1,0 +1,91 @@
+
+main aside
+{
+	display: inline-block;
+	border: solid thin #aaa;
+	margin: 25px;
+	padding: 20px;
+}
+
+main aside ul#footer-links-list
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+main aside ul#footer-links-list li
+{
+	border-bottom: solid thin #fff;
+	cursor: pointer;
+}
+
+main aside ul#footer-links-list li:hover:not(#add-new-footer-link-butt) { border-color: #aaa; }
+
+main aside ul#footer-links-list li#add-new-footer-link-butt
+{
+	background-color: #444;
+	color: #34ee34;
+	padding: 4px;
+	text-align: center;
+	margin-top: 10px;
+	box-sizing : border-box;
+}
+
+main aside ul#footer-links-list li#add-new-footer-link-butt:hover
+{
+}
+
+main #editing-page
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 980px;
+	margin-top: 25px;
+	padding: 20px;
+	box-sizing: border-box;
+	border: solid thin #aaa;
+}
+
+main div#buttons{
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+	text-align: right;
+}
+
+button
+{
+	font-family: Century Gothic, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 0.9em;
+	text-align: center;
+	border-radius: 3px;
+	padding: 5px 15px 5px 15px;
+	border: solid thin #fff;
+	color: #5f5;
+	background: #444;
+	cursor: pointer;
+}
+
+textarea.edit-article-textarea{
+	min-width: 100%;
+	min-height: 300px;
+
+}
+
+#link-edit-wrapper{
+	margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

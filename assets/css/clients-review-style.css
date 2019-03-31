@@ -1,0 +1,25 @@
+main div.center{
+	border: none;
+}
+
+.review_block
+{
+	width: 800px;
+	padding: 15px;
+	border-top: solid thin #ddd;
+	box-sizing: border-box;
+	margin: 15px auto 20px auto;
+}
+
+.review_block div.details-wrapper table{
+	margin-bottom: 10px;
+}
+
+.review_block div.details-wrapper table td{
+	padding-right: 15px
+}
+
+.rating{
+	font-size: 1.5em;
+	color: #dd0;
+}

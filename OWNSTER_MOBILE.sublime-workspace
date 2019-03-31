@@ -1,0 +1,1790 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"counter"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"rota",
+				"rotate"
+			],
+			[
+				"rest",
+				"restore"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"self",
+				"self_r"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"head",
+				"header-look"
+			],
+			[
+				"margin",
+				"margin: "
+			],
+			[
+				"def",
+				"default_surface"
+			],
+			[
+				"main",
+				"main_col_size_rat"
+			],
+			[
+				"back",
+				"background-color: "
+			],
+			[
+				"optfun",
+				"optFunkOnLoad"
+			],
+			[
+				"opt",
+				"optFunkOnLoad"
+			],
+			[
+				"page_",
+				"page_to_prod_ratio"
+			],
+			[
+				"img",
+				"img_w"
+			],
+			[
+				"ang",
+				"angle"
+			],
+			[
+				"rot",
+				"rotatePoints"
+			],
+			[
+				"temp",
+				"tempX"
+			],
+			[
+				"pox",
+				"pos_x1"
+			],
+			[
+				"posxy",
+				"pos_xy1"
+			],
+			[
+				"img_",
+				"img_h"
+			],
+			[
+				"pos_",
+				"pos_y2"
+			],
+			[
+				"text",
+				"text-align: "
+			],
+			[
+				"pad",
+				"padding: "
+			],
+			[
+				"marg",
+				"margin: "
+			],
+			[
+				"col",
+				"color: "
+			],
+			[
+				"center",
+				"centered_content"
+			],
+			[
+				"act",
+				"active_class"
+			],
+			[
+				"padd",
+				"padding-bottom: "
+			],
+			[
+				"change",
+				"changeStep"
+			],
+			[
+				"is",
+				"isMobile"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"h",
+				"hide"
+			],
+			[
+				"templates",
+				"templates_obj"
+			],
+			[
+				"work-",
+				"workdesk-info"
+			],
+			[
+				"work",
+				"workdesk-info"
+			],
+			[
+				"Workd",
+				"workdesk"
+			],
+			[
+				"lig",
+				"lighten	Sass-function"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"backgroun",
+				"background-green"
+			],
+			[
+				"backgr",
+				"background-color: "
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"templat",
+				"templates_options"
+			],
+			[
+				"wallets",
+				"wallets_from"
+			],
+			[
+				"deg",
+				"degree"
+			],
+			[
+				"border",
+				"border: "
+			],
+			[
+				"templ",
+				"template_inf"
+			],
+			[
+				"mysl_err",
+				"mysql_error"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"res",
+				"res"
+			],
+			[
+				"jso",
+				"json_encoded_data"
+			],
+			[
+				"occ",
+				"occasions"
+			],
+			[
+				"data",
+				"data_to_save"
+			],
+			[
+				"boxs",
+				"box-sizing: "
+			],
+			[
+				"select",
+				"select_opts"
+			],
+			[
+				"new",
+				"new_val"
+			],
+			[
+				"occasion",
+				"occasions_output_data"
+			],
+			[
+				"mysql_fetch",
+				"mysql_fetch_assoc"
+			],
+			[
+				"border-",
+				"border-box"
+			],
+			[
+				"box-s",
+				"box-sizing: "
+			],
+			[
+				"peview",
+				"preview_src"
+			],
+			[
+				"templa",
+				"template_id"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"min",
+				"min-height: "
+			],
+			[
+				"thi",
+				"thin"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"mouse",
+				"mouseout"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"text_",
+				"text_lmargin"
+			],
+			[
+				"append",
+				"appendTo"
+			],
+			[
+				"selected",
+				"selected_cell"
+			],
+			[
+				"cellhelper",
+				"cell-helper"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"togg",
+				"toggleClass"
+			],
+			[
+				"bor",
+				"border: "
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"demo",
+				"demo_layer"
+			],
+			[
+				"curr",
+				"current_surface"
+			],
+			[
+				"num",
+				"num_files"
+			],
+			[
+				"dem",
+				"demo_layer"
+			],
+			[
+				"align",
+				"align_l"
+			],
+			[
+				"max",
+				"maxsym"
+			],
+			[
+				"make",
+				"makeTextInputs"
+			],
+			[
+				"onstage",
+				"onstagetext"
+			],
+			[
+				"swit",
+				"switch"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"graph",
+				"graphic_template"
+			],
+			[
+				"default",
+				"default_surface"
+			],
+			[
+				"image",
+				"image-filled"
+			],
+			[
+				"ta",
+				"table-row"
+			],
+			[
+				"active",
+				"active-tab"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"edit",
+				"editable"
+			],
+			[
+				"if",
+				"ifnotun	if typeof != \"undefined\""
+			],
+			[
+				"font",
+				"font-size: "
+			],
+			[
+				"html",
+				"html_entity_decode"
+			],
+			[
+				"graphic",
+				"graphic_templates"
+			],
+			[
+				"grap",
+				"graphic_templates"
+			],
+			[
+				"render",
+				"renderTextLayer"
+			],
+			[
+				"date",
+				"date_created"
+			],
+			[
+				"clean",
+				"clean_voucher"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"match",
+				"matches"
+			],
+			[
+				"vouch",
+				"voucher_code"
+			],
+			[
+				"vouc",
+				"voucher_code"
+			],
+			[
+				"cleans",
+				"stringCleanse"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"borde",
+				"border-left"
+			],
+			[
+				"to",
+				"to_time"
+			],
+			[
+				"from",
+				"from_time"
+			],
+			[
+				"value",
+				"value"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"gm",
+				"gmail"
+			],
+			[
+				"R",
+				"Riga"
+			],
+			[
+				"E",
+				"Europe"
+			],
+			[
+				"date_de",
+				"date_default_timezone_set"
+			],
+			[
+				"Shopping",
+				"ShoppingCartServer"
+			],
+			[
+				"defaul",
+				"default_pic"
+			],
+			[
+				"order_id",
+				"order_id_qty"
+			],
+			[
+				"orders",
+				"orders_array"
+			],
+			[
+				"option",
+				"optional_images"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/js/main_customize.js",
+			"settings":
+			{
+				"buffer_size": 91416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/cms_add_product_main.js",
+			"settings":
+			{
+				"buffer_size": 42238,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/WorkDeskSetup.js",
+			"settings":
+			{
+				"buffer_size": 55192,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/cells-toolbar.js",
+			"settings":
+			{
+				"buffer_size": 6097,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/add-product-layout.css",
+			"settings":
+			{
+				"buffer_size": 18882,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "manager/add-product/index.php",
+			"settings":
+			{
+				"buffer_size": 16267,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/menu-toolbar.js",
+			"settings":
+			{
+				"buffer_size": 10033,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/OwnsterCanvasClass.js",
+			"settings":
+			{
+				"buffer_size": 5830,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "-d userLogin=[login=boss@admin.aa,password=76960927c62ed6c411a7b9a56c17f8cb]",
+			"settings":
+			{
+				"buffer_size": 76,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Артём, что с оплатой моей работы? Подписав договор ты обязался исполнять его условия, но ты их нарушаешь. Ты дал мне слово что до конца февраля выплатишь оставшуюся сумму, но и своё слово ты тоже не держишь. Поэтому к твоим словам не осталось никакого доверия.\nЯ так понимаю что ты решил растянуть выплату моего гонорара на не определённый срок. На сколько не было бы это комфортно для тебя, для меня такое положение вещей кране не благоприятно! И я на такие условия не соглашался.\nМои деньги должны быть на счету, самое позднее в среду 09.03.16 \nЯнварь - 1314 Евро, Февраль - 108 Евро.\nТобой оплачено 950 Евро.\nК оплате 472 Евро.\nЭто последнее предупреждение. Никакие оправдания, отговорки, угрозы и т.п. не принимаются.\nВ случае неуплаты главные функции сайта будут отключены. На имэйлы всех страх и новых клиентов Оунстера будут высланы письма, с содержанием, рассказывающем о том какая бесчестная компания Оунстер. ",
+			"settings":
+			{
+				"buffer_size": 919,
+				"line_ending": "Unix",
+				"name": "Артём, что с оплатой моей работы? Подписав договор"
+			}
+		},
+		{
+			"file": "inc/userAccount.php",
+			"settings":
+			{
+				"buffer_size": 21235,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cur.php",
+			"settings":
+			{
+				"buffer_size": 742,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "punisher.js",
+			"settings":
+			{
+				"buffer_size": 619,
+				"line_ending": "Unix",
+				"name": "$(document).ready(function(){"
+			}
+		},
+		{
+			"file": "punisher.html",
+			"settings":
+			{
+				"buffer_size": 488,
+				"line_ending": "Unix",
+				"name": "<!DOCTYPE html>"
+			}
+		},
+		{
+			"contents": "<style>\n	.titles { color:#333; text-align:left; margin:0;}\n	h3.secondtit { font-size:200%; }\n</style>\n<h3 class='titles secondtit'>Tested</h3>\n<h1 style='color:#333; text-align:left; margin:0; font-size:300%;'>Tribulus 90%</h1>\n\nIncreased muscle mass & strength!\n\nTested Tribulus contains the highest quality Tribulus available today. Standardized for 90% active saponins and protodioscin for fast and optimal results. In the gym and in the bedroom. Tested Tribulus delivers maximum hormonal support. Safe, effective and Tested quality!\n\nProduct highlights\n•Increased sex drive & sexual performance.\n•Increased muscle mass & strength.\n•Increased wellbeing.\n\n\n***********\n\nDas nächste hochwertige Tribulus Supplement, welches bei Pharmasports ab sofort für Sie bereitsteht – Tested Nutrition Tested Tribulus 90%. Tested Nutrition Tested Tribulus 90% versorgt Sie mit hochwertigen Tribulus Terrestris in der bequemen Kapselform. Tested Nutrition Tested Tribulus 90% wird ganz einfach mit ausreichend Wasser oder Fruchtsaft zu einer Mahlzeit zu sich genommen. Vor allem Athleten aus dem Kraftsport und Bodybuilding nutzen Supplemente wie Tested Nutrition Tested Tribulus 90% seit vielen Jahren. Eine Supplementierung mit weiterer Nahrungsergänzung ist während der Einnahme von Tested Nutrition Tested Tribulus 90% ohne Probleme möglich. Versuchen also auch Sie sich ruhig mal an dieser hochwertigen Sportnahrung aus dem Hause Tested Nutrition. Für Fragen oder Informationen, steht Ihnen das Pharmasports-Team mit Freude zur Seite.\n\nErhöhung der Libido und sexuelle Leistungsfähigkeit.\nErhöhung der Muskelmasse und Kraft.\nErhöhung des Wohlbefindens.\n\n\n\nNÄHRWERTE:\nPer 1 Portion\nTribulus Terrestris (90% Saponine)\n750mg\nANDERE INHALTSTOFFE:\nGelatina, Magnesiumstearat, Wasser\n\n<table class=\"inhalt\">\n	<tbody><tr><td>Einnahme:</td><td>Nehmen Sie 1 Kapsel täglich ein.</td></tr>\n	<tr><td>Menge:</td><td>90 Kapseln</td></tr>\n	<tr><td>Portionen pro Packung:</td><td>90</td></tr>\n	<tr><td>Portion:</td><td>1 Kapseln</td></tr>\n	<tr><td colspan=\"2\">Nährwerte Per 1 Portion</td></tr>\n	<tr><td>Tribulus Terrestris (90% Saponine)</td><td>750mg</td></tr>\n	<tr><td>Andere Inhaltstoffe:</td><td>Gelatina, Magnesiumstearat, Wasser</td></tr>\n	<tr><td>HINWEIS:</td><td>Die maximale Tagesdosierung darf nicht überschritten werden. Halten Sie es in einem kühlen und trockenen Platz. Bewahren Sie es außerhalb der Reichweite von Kindern auf. </td></tr>\n</tbody></table>\n\n\n<style>\n	.cross-promotion { width: 100%; text-align: center;}\n	.cross-promotion div { margin-top: 5px; }\n	.cross-promotion a { color:#000; text-decoration: underline; font-size: 90%;}\n	.cross-promotion img{ margin: 0 auto; }\n</style>\n<section class='cross-promotion' cellpadding =\"2\" cellspacing =\"2\" border =\"0\">\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121774013421&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217740134218080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121774013421&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">TESTED Coleus 10% Forskolin<br>\n		Testosteron Booster</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121765343678&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217653436788080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121765343678&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">TESTED Anti-Estro<br>\n		Östrogen Blocker Test Booster</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121797566415&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217975664158080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121797566415&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">Testosterol & Biosterol Anabole Wirkung</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121777684440&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217776844408080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121777684440&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n		Lipo-6 Black Maximum Potency<br>\n		Fettburner</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121789763840&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217897638408080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121789763840&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n		Lipo-6 Black Hers<br>\n		Fettabbau & Diät für Frauen</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121907754710&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1219077547108080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121907754710&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">Hydroxycut Fettburner</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121817536606&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1218175366068080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121817536606&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">ProSupps Mr. Hyde Pre-workout booster USA Version</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121766298220&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217662982208080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121766298220&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">ProSupps Dr. JEKYLL<br>\n		Pre-Workout Booster</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121788933348&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217889333488080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121788933348&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">Dedicated BCAA Sensation V2 Aminosäuren</a>\n	</div>\n\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121762579205&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217625792058080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121762579205&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">Eiweiß Protein Shaker SmartShake Phil Heath Edition</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121776843878&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217768438788080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121776843878&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">Grenade Eiweiß Shaker</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121772094975&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217720949758080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121772094975&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">Shaker Bottle I am Dedicated</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121789776790&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217897767908080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121789776790&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">BPI 1.M.R Vortex<br>\n		Pre-Workout Booster</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121776857780&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217768577808080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121776857780&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">MusclePharm Assault XT<br>\n		Pre-Workout Booster</a>\n	</div>\n	<div>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121762853809&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">\n			<img src =\"http://thumbs.ebaystatic.com/pict/1217628538098080.jpg\" alt=\" \" border =\"0\">\n		</a><br>\n		<a href =\"http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&item=121762853809&refid=store&ssPageName=STORE:HTMLBUILDER:SIMPLEITEM\">Myo-Blitz XS - Ronnie Coleman<br>\n		Pre-Workout Booster</a>\n	</div>\n</section>\n\n\n\n",
+			"settings":
+			{
+				"buffer_size": 9108,
+				"line_ending": "Unix",
+				"name": "<style>"
+			}
+		},
+		{
+			"contents": "<?php\ninclude_once(\"DataBaseClass.php\");\ninclude_once(\"SessionClass.php\");\ninclude_once(\"UserClass.php\");\n\nini_set(\"log_errors\", 1);\ndate_default_timezone_set(\"Europe/London\");\n$date = date(\"d-m-y\");\nini_set(\"error_log\", \"../../error_log/php-error$date.log\");\n\n/*\n$session	= new Session();\n\n$login		= $session->getSessionValue(\"user_login\");\n$password	= $session->getSessionValue(\"user_password\");\n$description_files_path = \"../../portfolio_files/descriptions/\";\n\nif($login && $password){\n	$result = mysql_query(\"SELECT * FROM settings WHERE login = '$login'\");\n	if($result){\n		$user_data = mysql_fetch_assoc($result);\n		 \n		if($user_data && $login === $user_data['login'] && $password === $user_data['password']){*/\n			$db	= new DataBase();\n			if( isset( $_POST ) ){\n				switch( key( $_POST ) ){\n					\n					case \"saveProduct\"		:	saveProduct($_POST, $db);						\n												break;\n					case \"get_product_data\"	:	getProductData($_POST, $db);\n												break;\n					case \"getProductSpecs\"	:	getProductSpecs($_POST, $db);\n												break;\n					case \"editDescription\"	:	editDescription($_POST, $db);\n												break;\n					case \"editSpecs\"		:	editSpecs($_POST, $db);\n												break;\n					case \"changePlace\"		:	changePlace($_POST, $db);\n												break;\n					case \"deleteProduct\"	:	deleteProduct($_POST, $db);\n												break;\n					case \"deleteOptImg\"		:	deleteFile($_POST, $db);\n												break;\n					case \"changeName\"		:	changeName($_POST, $db);\n												break;\n					case \"changePrice\"		:	changePrice($_POST, $db);\n												break;\n					case \"toggleActive\"		:	toggleActive($_POST, $db);\n												break;\n					case \"logout\"			: 	userLogout($session); break;\n				}\n			}\n\n/*		} else {\n			echo json_encode(array(\"error\"=>true, \"error_msg\"=>\"Access Denied!\"));\n		}\n	} else {\n		echo json_encode(array(\"error\"=>true, \"error_msg\"=>\"Access Denied!\"));\n	}\n} else	{\n	if( isset( $_POST ) ){\n		if(	key( $_POST ) == \"description\"||\n			key( $_POST ) == \"createProject\" )\n		{\n			echo json_encode(array(\"error\"=>true, \"error_msg\"=>\"Access Denied!\"));\n		}\n	}\n}*/\n\n/*if( isset( $_POST ) ){\n	switch( key( $_POST ) ){\n		case \"getProjects\"		:	getProjects($_POST[\"getProjects\"], $description_files_path, $db);	break;\n		case \"get_files\"	: getFiles( $_POST[\"get_files\"],$db );	break;\n	}\n}*/\n\n//******************************************************************************************\n// SAVE PRODUCT DATA INTO DATABASE\nfunction saveProduct( $post, $db ){\n	$product_places = array();\n	$error_msg = \"\";\n	$product_id = $post[\"product_id\"];\n	$product_json_data = $post[\"saveProduct\"];\n	$product_name = $post[\"product_name\"];\n	$product_thumb = $post[\"product_thumb\"];\n\n	$product_json_data = htmlentities($product_json_data, ENT_QUOTES, 'UTF-8', false);\n\n	$insert_q = \"INSERT INTO products (name, productdata, preview_thumb) VALUES('$product_name', '$product_json_data', '$product_thumb')\";\n	$select_q = \"SELECT id FROM products WHERE id = $product_id\";\n	$update_q = \"UPDATE products SET name = '$product_name', productdata = '$product_json_data', preview_thumb = '$product_thumb' WHERE id = $product_id\";\n\n	if(!mysql_query($select_q)){\n		// Insert new Product\n		if(mysql_query($insert_q)){\n			$product_id = mysql_insert_id();\n			// Update Product's db_id\n			$product_data = json_decode( stripcslashes($product_json_data) );\n			$product_data->db_id = $product_id;\n			$product_data = json_encode($product_data);\n			if(!mysql_query(\"UPDATE products SET productdata = '$product_data' WHERE id = $product_id\")){\n				$error_msg = mysql_error();\n			}\n\n			// Return its ID\n			if( $product_id ){\n				// Rearange places\n				if( rearangeFilePlaces( 1, $db, $product_id ) ){\n					if(!mysql_query(\"UPDATE products SET place = 1 WHERE id = \".$product_id)){\n						$error_msg = mysql_error();\n						outputError(\"#4 \".$error_msg);\n					}\n				}\n\n				echo json_encode( array(\"error\"=>false, \"product_id\"=>$product_id) );\n			} else {\n				outputError(\"#3 No product id\");\n			}\n		} else {\n			$error_msg = mysql_error();\n			outputError(\"#2 Cannot Insert. \".$error_msg);\n		}\n	} else {\n		// Update Product\n		if(mysql_query($update_q)){\n			echo json_encode( array(\"error\"=>false, \"product_id\"=>$product_id) );\n		} else {\n			$error_msg = mysql_error();\n			outputError(\"#1 \".$error_msg);\n		}\n	}\n	// setDBField($table, $field, $value){\n}\n\n//------------------------------	CHANGE PRODUCT PLACE		-----------------------------//\n// \nfunction changePlace($_post, $db){\n	$id = $_post[\"changePlace\"];\n	$place = $_post[\"place\"];\n\n	if( rearangeFilePlaces( $place, $db, $id ) ){\n		if(!mysql_query(\"UPDATE products SET place = \".$place.\" WHERE id = \".$id.\"\")){\n			echo json_encode(array(\"error\"=>true, mysql_error()));\n		} else {\n			echo json_encode(array(\"error\"=>false));	\n		}\n	}\n}\n\nfunction rearangeFilePlaces( $new_place, &$db, $id = NULL ){\n	// Check if place is already taken by other file\n		if($id != NULL){\n			$old_place = mysql_result(mysql_query(\"SELECT place FROM products WHERE id = $id\"), 0);\n			\n			if( $old_place > $new_place	){\n				return ascendPlace( $new_place, $old_place, $db );\n						\n			} elseif( $old_place < $new_place ){\n				return descendPlace( $new_place, $old_place, $db );\n			}\n		} else {\n			return ascendPlace( $new_place, 100000, $db );\n		}\n}\n\nfunction ascendPlace( &$new_place, $old_place, &$db ){\n	if(mysql_query(\"UPDATE products SET place = place+1 WHERE place >= $new_place AND place < $old_place\")){\n		return true;	\n	} else {\n		return false;	\n	}	\n}\n\nfunction descendPlace( &$new_place, &$old_place, &$db ){\n	if(mysql_query(\"UPDATE products SET place = place-1 WHERE place <= $new_place and place > $old_place\")){\n		return true;	\n	} else {\n		return false;	\n	}	\n}\n\n//******************************************************************************************\n// GET PRODUCT DATA\n\nfunction getProductData($post, $db){\n	$session = new Session();\n	$id = $post[\"get_product_data\"];\n	$where = $post[\"get_product_data\"]== \"*\" ? \"\" : \"WHERE id = $id\";\n	$result = mysql_query(\"SELECT * FROM products $where ORDER BY place ASC\");\n	if($result){\n		if( mysql_num_rows($result) > 1 ){\n			$response = array();\n			while($row = mysql_fetch_assoc($result)){\n				$row[\"productdata\"] = html_entity_decode($row[\"productdata\"], ENT_QUOTES, 'UTF-8');\n				array_push($response,  $row);\n			}\n		} else {\n			// $product_data = mysql_fetch_assoc($result);\n			$response = array(mysql_fetch_assoc($result));\n			$response[\"productdata\"] = html_entity_decode($response[\"productdata\"], ENT_QUOTES, 'UTF-8');\n		}\n\n		$_SESSION[\"product_data\"] = $response;\n		echo json_encode(array(\"error\" => false, \"product_data\" => $response ));\n\n	} else {\n		outputError(mysql_error());\n	}\n}\n\n//---------------------------------------------------------------------------------\n// \n\nfunction getProductSpecs($post, $db){\n	$id = $post[\"getProductSpecs\"];\n	$result = mysql_query(\"SELECT specs FROM products WHERE id = $id\");\n	if($result){\n		$specs = mysql_result($result, 0);\n		if( $specs ){	\n			echo json_encode(array(\"error\" => false, \"specs\" => $specs ));\n		}\n\n	} else {\n		outputError(mysql_error());\n	}\n}\n\n//---------------------------------------------------------------------------------\n// \nfunction deleteProduct($_post, $db){\n	$id = $_post[\"deleteProduct\"];\n	if(mysql_query(\"DELETE FROM products WHERE id = $id\")){\n		echo json_encode( array('error' => false) );\n	} else {\n		echo json_encode( array('error' => true, 'error_msg' => mysql_error()) );\n	}\n}\n\n//---------------------------------------------------------------------------------\n// \n\nfunction deleteFile($_post, $db){\n	$path = $_post[\"deleteOptImg\"];\n	if(file_exists(\"../../\".$path)){\n		unlink(\"../../\".$path);\n		$thumb_file = dirname($path).\"/thumbnail/\".basename($path);\n		if(file_exists(\"../../\".$thumb_file)){\n			unlink(\"../../\".$thumb_file);\n		}\n		echo json_encode(array(\"error\"=>false));\n	} else {\n		echo json_encode(array(\"error\"=>true, \"error_msg\"=>\"Can not delete. File doesn't exist.\"));\n	}\n}\n\n//---------------------------------------------------------------------------------\n// \nfunction changeName($_post, $db){\n	$id = $_post[\"changeName\"];\n	$name = $_post[\"name\"];\n\n	if(mysql_query(\"UPDATE products SET name = '$name' WHERE id = $id\")){\n		echo json_encode( array('error' => false) );\n	} else {\n		echo json_encode( array('error' => true, 'error_msg' => mysql_error()) );\n	}\n}\n\n\n//---------------------------------------------------------------------------------\n// \nfunction editDescription($post, $db){\n	$id = $post[\"editDescription\"];\n	$description = $post[\"description\"];\n\n	if(mysql_query(\"UPDATE products SET description = '$description' WHERE id = $id\")){\n		echo json_encode( array('error' => false) );\n	} else {\n		echo json_encode( array('error' => true, 'error_msg' => mysql_error()) );\n	}\n}\n\n//---------------------------------------------------------------------------------\n// \nfunction editSpecs($post, $db){\n	$id = $post[\"editSpecs\"];\n	$description = $post[\"description\"];\n\n	if(mysql_query(\"UPDATE products SET specs = '$description' WHERE id = $id\")){\n		echo json_encode( array('error' => false) );\n	} else {\n		echo json_encode( array('error' => true, 'error_msg' => mysql_error()) );\n	}\n}\n\n//---------------------------------------------------------------------------------\n// \nfunction changePrice($_post, $db){\n	$id = $_post[\"changePrice\"];\n	$price = $_post[\"price\"];\n\n	if(mysql_query(\"UPDATE products SET price = $price WHERE id = $id\")){\n		$price = mysql_result(mysql_query(\"SELECT price FROM products WHERE id = $id\"), 0);\n		echo json_encode( array('error' => false, 'price'=> $price) );\n	} else {\n		echo json_encode( array('error' => true, 'error_msg' => mysql_error()) );\n	}\n}\n\n//---------------------------------------------------------------------------------\n// \nfunction toggleActive($_post, $db){\n	$id = $_post[\"toggleActive\"];\n	$state = $_post[\"active\"];\n\n	if(mysql_query(\"UPDATE products SET active = $state WHERE id = $id\")){\n		echo json_encode( array('error' => false) );\n	} else {\n		echo json_encode( array('error' => true, 'error_msg' => mysql_error()) );\n	}\n}\n\n//---------------------------------------------------------------------------------\n// \nfunction userLogout(&$session){\n	$session->closeSession();\n}\n\n//---------------------------------------------------------------------------------\n// \nfunction outputError( $msg ){\n	$error_msg	= \"Error! \".$msg;\n	echo json_encode(array(\"error\"=>true, \"error_msg\"=>$error_msg));	\n}\n\n?>\n\n\n\n\n",
+			"file": "assets/php/ProductServer.php",
+			"file_size": 10381,
+			"file_write_time": 1450054667000000,
+			"settings":
+			{
+				"buffer_size": 10381,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/dmitryulyanov/Google Drive 2/httpd/holger-rettschlag/assets/php/config.php",
+			"settings":
+			{
+				"buffer_size": 285,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"FTPSync: Setup FTPSync in this folder"
+			],
+			[
+				"Snippet: ",
+				"Snippet: comment_delimiter"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: com",
+				"Snippet: comment_delimiter"
+			],
+			[
+				"ftp",
+				"FTPSync: Browse"
+			],
+			[
+				"ft",
+				"FTPSync: Browse"
+			],
+			[
+				"pak",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/manager/letmein.php",
+		"/Users/dmitryulyanov/cur/76960927c62ed6c411a7b9a56c17f8cb]",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/transaction.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/menu-toolbar.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/manager/add-product/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/personalize/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/personalize-page.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/SharedFunctions.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/occasions.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/WorkDeskSetup.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/cms_add_product_main.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/_header.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/_general-style-config.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/html-include/header.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/OwnsterCanvasClass.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/Utilities.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/general-functions.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/homepage.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/html-include/occasions/select_product_options_content.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/configs/OccasionsConfig.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/occasions/valentines-day/personalised-travel-card-holders-landscape/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/css/add-product-layout.css",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main_customize.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/products/Premium_Lscape_wallet_backup.txt",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/products/Premium_Portrait_wallet_backup.txt",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/css/personalize-page.css",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/upload-list.txt",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main_customize_backp.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/menu.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/ajaxServer.php",
+		"/Users/dmitryulyanov/Google Drive 2/Finansi/Fitaholic/Docs/Artikel nich da.txt",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main_occasions.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/_popup-window.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main_homepage.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/occasions/valentines-day/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/occasions/valentines-day/personalised-travel-card-holders-portrait/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/occasions/valentines-day/personalised-notebooks/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/occasions/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/manager/occasions/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/personalised-gifts/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/ScrollClass.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/occasions/valentines-day/personalised-travel-card-holders/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/manager/occasions/personalised-travel-card-holders/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/occasions-manager.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/occasions_server/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main_occasions_manager.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/our-products.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/css/page-layout.css",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main_products_list.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/upload_server/UploadHandler.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/user-upload-server/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/Finansi/Fitaholic/Docs/Bewertungen.txt",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/checkout_main.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/cells-toolbar.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/ExpandablePanels.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/ShoppingCartServer.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/DataBaseClass.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main_vouchers.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/manager/vouchers/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/css2/vouchers_layout.css",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/checkout/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/email-confirmation-html.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/ipn_listener.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main_sales.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/manager/sales/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/Analiz_problem_Checkout.txt",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/Logs/ShoppingCartServer_log",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/information/index.php",
+		"/Users/dmitryulyanov/Library/Application Support/Yummy FTP/Remote Edits/ftp.ownster.co.uk Edits/index.php81/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/information/large-orders/index.php",
+		"/Users/dmitryulyanov/Library/Application Support/Yummy FTP/Remote Edits/ftp.ownster.co.uk Edits/index.php82/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/complete.php",
+		"/Users/dmitryulyanov/Google Drive 2/Finansi/Fitaholic/HTML/cross_promotion.html",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/html-include/footer.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/cart/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/cart-main.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/personalised-gifts/personalised-notebooks/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/personalised-gifts/personalised-travel-card-holders/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/_footer.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/personalised-gifts/.htaccess",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/FileHandler.js",
+		"/Users/dmitryulyanov/Library/Application Support/Yummy FTP/Remote Edits/ftp.ownster.co.uk Edits/main_customize~prev.js/main_customize~prev.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/css/customization_layout.css",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/my-account/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main_myaccount.js",
+		"/Users/dmitryulyanov/Library/Application Support/Yummy FTP/Remote Edits/ftp.ownster.co.uk Edits/index.php78/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/manager/products/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/my-account.scss",
+		"/Users/dmitryulyanov/Google Drive 2/Finansi/Fitaholic/HTML/template_snippets.html",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/your-review.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main_leave_review.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/your-review/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main_review.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/checkout.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/angular/validation-config.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/form.html",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/payment-complete.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/css/your-review-style.css",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/clients-reviews.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/our-products/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/css/myaccount-style.css",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/cart.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/login/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/logout/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/signup.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main-signup.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/signup/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/UserClass.php",
+		"/Users/dmitryulyanov/Google Drive 2/WEBSITES BACKUP/ownster_online_copy/inc/js/Slider.js",
+		"/Users/dmitryulyanov/Google Drive 2/WEBSITES BACKUP/ownster_online_copy/edit.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/_general-style-config2.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/css/cart.css",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/review/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/css/homepage-style.css",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main-footer.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/manager/footer/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/information/contact-us/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/information/help/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/information/privacy-policy/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/information/terms-and-conditions/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/sass/information.scss",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/clients-reviews/index.php",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/js/main_information.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/js/RegExpTest.js",
+		"/Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/checkout/index_broke.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"basket_qty",
+			"toggleActive",
+			"maintit",
+			"	<",
+			"<td",
+			"	",
+			"userLogin",
+			"logUserIn",
+			"user_email",
+			"logUserIn",
+			"user",
+			"post",
+			"[d]",
+			"x_pos",
+			"rotate(",
+			"OwnsterCanvas",
+			"canvas_data",
+			"rotate(",
+			"canvas_data",
+			"rotate",
+			"canvas_data",
+			"p.surfaces[sideid].grid.cells[c]",
+			"height",
+			"cell_coord",
+			"c_data.id",
+			"left top",
+			"0px 0px",
+			"draw_cellHandle",
+			"bindCellDrawingEvents",
+			"doneCellDrawing",
+			"bindCellDrawingEvents",
+			"doneCellDrawing",
+			"grid",
+			"c_data.id",
+			"class",
+			"cellstorage",
+			"self",
+			": ",
+			"last_drawn_cell",
+			"left top",
+			"center",
+			"angle",
+			"product.surfaces[surfID()][\"img_\"+dimension]",
+			"spinner",
+			"degree",
+			"rotate",
+			"uploadableHandle",
+			"celltoolbar",
+			"split-numcells-h",
+			"work-desk",
+			"Coupon",
+			"alignTexts",
+			"renderPremadeTexts",
+			"onstagetext",
+			"changeProductLayout",
+			"loadGrid",
+			"loadGraphic",
+			"renderPremadeTexts",
+			"renderGraphicLayer",
+			"Deutschland",
+			"main-column",
+			"alert",
+			"renderProduct",
+			"changeProductLayout",
+			"loadGrid",
+			"24H",
+			"Deutschland",
+			"img_h",
+			"img_w",
+			"img_w / 2",
+			"this.angle",
+			"d.",
+			"* this.scale",
+			"this.img_src.height * this.scale",
+			"this.img_src.width * this.scale",
+			"=",
+			"this.tX",
+			"Cell",
+			"selected_cell",
+			"moveImgHandler",
+			"le.log",
+			"loadProduct",
+			"changeProductLayout",
+			"loadGrid",
+			"loadGraphic",
+			"renderPremadeTexts",
+			"premadeTextFunctions",
+			"renderPremadeTexts",
+			"main",
+			"header-navigation",
+			"logo-background",
+			"$this->occasion_url",
+			"page-title-description-wrapper",
+			"page-tit",
+			"$background-green",
+			"$background-orange",
+			"$background-green",
+			"gallery-larg-yellow-corner-bottom-right",
+			"product-group-wrapper",
+			"#lyouts-page-wrapp",
+			"optional-surface",
+			"lyouts-page-wrapp",
+			"graphic-templates",
+			"optional-surface",
+			"upload-page-wrapper",
+			"page",
+			"optional-surface",
+			"toggleScrollBar",
+			"img_id",
+			"le.log",
+			"changeProductLayout",
+			"loadOptionalImages",
+			"template_id_input",
+			"template-prewiew-thumb",
+			"optional_image_thumbnail",
+			"surface_img_preview_settings",
+			"previewOptionalImages",
+			"changeTemplateID",
+			"drag",
+			"files/thumbnail/",
+			"colorSelector",
+			"color",
+			"&",
+			"dds",
+			"dd",
+			"<option value=\"",
+			"graphic-templates",
+			"styles"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"{\nconsole.log(\"Premade Width: \", $(\".premade-text\").width(), \"caller: \", arguments.callee.caller.name);",
+			"function\nconsole.log(\"Premade Width: \", $(\".premade-text\").width(), \"caller: \", arguments.callee.caller.name);",
+			"$(\".text-align-radio-butt\")",
+			"input type='radio' class='text-align-radio-butt' name='radio-text-align'",
+			"text_stack",
+			"add texts",
+			"premade-text",
+			".premade_text_stack",
+			"\\n\\n* ",
+			"\"\\n\\n* ",
+			"\"\\n* ",
+			"../Logs/ShoppingCartServer\".date(\"d-m-y\").\".log",
+			"../Logs/ShoppingCartServer.log",
+			"",
+			"$root",
+			"personalised-gifts",
+			".user-files-preview-wrapper",
+			".texts-layer",
+			".grid-helper-frame",
+			".template-grid",
+			".product-other-side",
+			".product-image-container",
+			".product-wrapper",
+			".texts-layer",
+			".grid-helper-frame",
+			".template-grid",
+			".product-other-side",
+			".product-image-container",
+			".product-wrapper",
+			"facebookHandler",
+			"thumbnails/",
+			"\"'\".$",
+			"\"#text-inputs-wrapper\"+postfix",
+			"'#colorSelector'+postfix)",
+			"\"#font-size-select\"+postfix",
+			"\"#font-family-select\"+postfix",
+			"\"#colorSelector\"+postfix",
+			".zoomout-butt",
+			".zoomin-butt",
+			".rotate-right-butt",
+			".rotate-left-butt",
+			".upload-progress-page",
+			"polaroid-green.png",
+			".options-container",
+			"class=\"upload-page-wrapper\"",
+			"class=\"graphic-thumbnails-container\"",
+			"class=\"graphic-templates",
+			".graphic-templates",
+			".graphic-thumbnails-container",
+			".layout-templates",
+			"class=\"template-thumbnails-container\"",
+			"class=\"layout-templates",
+			".work-desk",
+			".back-next-butt-wrapper",
+			"class='basket-qty'",
+			"class=\"basq-qty-wrapper\"",
+			".redeem_input",
+			"class=\"redeem_input\"",
+			".redeem_butt",
+			"class=\"redeem_butt\"",
+			".pay_butt",
+			"class=\"pay_butt\"",
+			"class=\"country_cell\"",
+			"class=\"load_from_address_butt\"",
+			".next-button",
+			".back-button",
+			"class='next-button'",
+			"class='back-button'",
+			"@media #{$media-all-xxs}",
+			"//@media #{$media-tablet}",
+			"switchMenu",
+			"switchMenu(\"first upload menu\");",
+			"loadImage2Cell",
+			"onFilesReady",
+			"(file)",
+			"file",
+			"onFilesReady",
+			"select layout",
+			"$header-background-color",
+			"$header-text-color",
+			"mob-device-block-behaviour",
+			" ",
+			"max-device-width: 980px",
+			"graphic-templates-preview-window",
+			"handleOptioanlImge",
+			"$new_cell",
+			"wd.",
+			"image",
+			"cell_data",
+			"d.cell_data",
+			"d.clicked_img",
+			"d.image",
+			"fff",
+			"015b7e",
+			"\"../../",
+			"redirectToPage",
+			"\"<",
+			"'",
+			"",
+			"<",
+			"<a style='color: #333; font-weight: bold;'",
+			"<h2 style='font-size: 100%; padding: 6px; margin:0px;'",
+			"'",
+			"data",
+			"session",
+			"#font-family-select .dd-options",
+			"; }",
+			".dd-options li:nth-child(6) { font-family",
+			".ownster-intro-text",
+			".banner-text",
+			"$(this)",
+			"$(clicked_img)",
+			"(this)",
+			"\"../assets/",
+			"\"../inc/",
+			"\"../layoutimg2/",
+			"'../layoutimg2/",
+			"../inc/",
+			"../layoutimg2/",
+			"num_s_tot",
+			"\"../layoutimg2",
+			"\"../inc/",
+			"\"../inc/ajaxServer.php\"",
+			"\"../layoutimg2/",
+			"'../layoutimg2/",
+			"'../inc/\n'../layoutimg2/",
+			"\"../inc/",
+			"../css2/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 16,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/js/main_customize.js",
+					"settings":
+					{
+						"buffer_size": 91416,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										22773,
+										22773
+									],
+									[
+										65615,
+										65615
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								58471,
+								58471
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/js/cms_add_product_main.js",
+					"settings":
+					{
+						"buffer_size": 42238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36462,
+								37602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/js/WorkDeskSetup.js",
+					"settings":
+					{
+						"buffer_size": 55192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45268,
+								45268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/js/cells-toolbar.js",
+					"settings":
+					{
+						"buffer_size": 6097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2597,
+								2597
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/css/add-product-layout.css",
+					"settings":
+					{
+						"buffer_size": 18882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18786,
+								18792
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "manager/add-product/index.php",
+					"settings":
+					{
+						"buffer_size": 16267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15024,
+								15055
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5563.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/js/menu-toolbar.js",
+					"settings":
+					{
+						"buffer_size": 10033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6878,
+								6450
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2544.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/js/OwnsterCanvasClass.js",
+					"settings":
+					{
+						"buffer_size": 5830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3197,
+								3052
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"settings":
+					{
+						"buffer_size": 76,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"settings":
+					{
+						"buffer_size": 919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								919,
+								919
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Артём, что с оплатой моей работы? Подписав договор",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "inc/userAccount.php",
+					"settings":
+					{
+						"buffer_size": 21235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7464,
+								7473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 158.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "cur.php",
+					"settings":
+					{
+						"buffer_size": 742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								737,
+								737
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "punisher.js",
+					"settings":
+					{
+						"buffer_size": 619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"auto_name": "$(document).ready(function(){",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "punisher.html",
+					"settings":
+					{
+						"buffer_size": 488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<!DOCTYPE html>",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"settings":
+					{
+						"buffer_size": 9108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9104,
+								9104
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<style>",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "assets/php/ProductServer.php",
+					"settings":
+					{
+						"buffer_size": 10381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9852,
+								9852
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/Users/dmitryulyanov/Google Drive 2/httpd/holger-rettschlag/assets/php/config.php",
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 169.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"layout",
+				"assets/css/layout.css"
+			],
+			[
+				"popup",
+				"assets/css/popup-hints-style.css"
+			],
+			[
+				"heade",
+				"assets/css/header-style.css"
+			],
+			[
+				"la",
+				"css2/layout.css"
+			],
+			[
+				"",
+				"/Applications/MAMP/htdocs/ownster/assets/js/main_customize.js"
+			],
+			[
+				"jquery",
+				"assets/css/jquery-ui.css"
+			],
+			[
+				"edit",
+				"inc/spry_assets/editmode.js"
+			],
+			[
+				"menu",
+				"inc/spry_assets/menu.js"
+			],
+			[
+				"haf",
+				"privatkunden/produkte/haftpflicht.html"
+			],
+			[
+				"pub",
+				"inc/spry_assets/public_funktions_holger_rettschlag.js"
+			],
+			[
+				"slid",
+				"css/slideshow.css"
+			],
+			[
+				"text",
+				"css/texts_formating.css"
+			],
+			[
+				"misc",
+				"css/misc_page_elements.css"
+			],
+			[
+				"allia",
+				"css/allianz_general_layout.css"
+			],
+			[
+				"main",
+				"inc/spry_assets/main.js"
+			],
+			[
+				"publ",
+				"inc/spry_assets/public_funktions_holger_rettschlag.js"
+			],
+			[
+				"haft",
+				"privatkunden/produkte/haftpflicht.html"
+			],
+			[
+				"auto",
+				"privatkunden/produkte/autoversicherung.html"
+			],
+			[
+				"data",
+				"inc/php/DataBaseClass.php"
+			],
+			[
+				"cms",
+				"css/cms_objects.css"
+			],
+			[
+				"mell",
+				"inc/spry_assets/MellowPixels_Utilities.js"
+			],
+			[
+				"edit_",
+				"cms/edit_slides.php"
+			],
+			[
+				"texts_formating",
+				"css/texts_formating.css"
+			],
+			[
+				"edi",
+				"inc/spry_assets/editmode.js"
+			],
+			[
+				"te",
+				"/Applications/MAMP/htdocs/html5_tests/test.js"
+			],
+			[
+				"index.html",
+				"/Applications/MAMP/htdocs/html5_tests/index2.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/magento-2.0.2-2/apps/magento/htdocs/Fitaholic2.0_Magento.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true
+}

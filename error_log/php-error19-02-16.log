@@ -1,0 +1,39 @@
+[19-Feb-2016 20:02:15 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/ajaxServer.php on line 6
+[19-Feb-2016 20:02:15 UTC] PHP Stack trace:
+[19-Feb-2016 20:02:15 UTC] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/ajaxServer.php:0
+[19-Feb-2016 20:02:15 UTC] PHP   2. date() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/ajaxServer.php:6
+[19-Feb-2016 20:02:48 Europe/London] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php on line 16
+[19-Feb-2016 20:02:48 Europe/London] PHP Stack trace:
+[19-Feb-2016 20:02:48 Europe/London] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:0
+[19-Feb-2016 20:02:48 Europe/London] PHP   2. DataBase->__construct() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:24
+[19-Feb-2016 20:02:48 Europe/London] PHP   3. mysql_connect() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php:16
+[19-Feb-2016 20:06:01 Europe/London] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php on line 16
+[19-Feb-2016 20:06:01 Europe/London] PHP Stack trace:
+[19-Feb-2016 20:06:01 Europe/London] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:0
+[19-Feb-2016 20:06:01 Europe/London] PHP   2. DataBase->__construct() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:24
+[19-Feb-2016 20:06:01 Europe/London] PHP   3. mysql_connect() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php:16
+[19-Feb-2016 20:06:40 Europe/London] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php on line 16
+[19-Feb-2016 20:06:40 Europe/London] PHP Stack trace:
+[19-Feb-2016 20:06:40 Europe/London] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:0
+[19-Feb-2016 20:06:40 Europe/London] PHP   2. DataBase->__construct() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:24
+[19-Feb-2016 20:06:40 Europe/London] PHP   3. mysql_connect() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php:16
+[19-Feb-2016 20:21:00 Europe/London] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php on line 16
+[19-Feb-2016 20:21:00 Europe/London] PHP Stack trace:
+[19-Feb-2016 20:21:00 Europe/London] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:0
+[19-Feb-2016 20:21:00 Europe/London] PHP   2. DataBase->__construct() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:24
+[19-Feb-2016 20:21:00 Europe/London] PHP   3. mysql_connect() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php:16
+[19-Feb-2016 20:29:31 Europe/London] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php on line 16
+[19-Feb-2016 20:29:31 Europe/London] PHP Stack trace:
+[19-Feb-2016 20:29:31 Europe/London] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:0
+[19-Feb-2016 20:29:31 Europe/London] PHP   2. DataBase->__construct() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:24
+[19-Feb-2016 20:29:31 Europe/London] PHP   3. mysql_connect() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php:16
+[19-Feb-2016 20:29:57 Europe/London] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php on line 16
+[19-Feb-2016 20:29:57 Europe/London] PHP Stack trace:
+[19-Feb-2016 20:29:57 Europe/London] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:0
+[19-Feb-2016 20:29:57 Europe/London] PHP   2. DataBase->__construct() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:24
+[19-Feb-2016 20:29:57 Europe/London] PHP   3. mysql_connect() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php:16
+[19-Feb-2016 20:42:38 Europe/London] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php on line 16
+[19-Feb-2016 20:42:38 Europe/London] PHP Stack trace:
+[19-Feb-2016 20:42:38 Europe/London] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:0
+[19-Feb-2016 20:42:38 Europe/London] PHP   2. DataBase->__construct() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/ProductServer.php:24
+[19-Feb-2016 20:42:38 Europe/London] PHP   3. mysql_connect() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/assets/php/DataBaseClass.php:16

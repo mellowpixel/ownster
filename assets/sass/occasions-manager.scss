@@ -1,0 +1,85 @@
+/* 
+<section id="occasions-left-menu">
+	<div id="occasions-list-wrapper"></div>
+	<div id="new-occasion-toolbar"></div>
+</section>
+
+<section id="product-templates-list"></section> */
+
+#occasions-left-menu,
+#product-templates-list {
+	display: inline-block;
+	vertical-align: top;
+	border: solid thin #aaa;
+	min-height: 500px;
+}
+
+#occasions-left-menu { width: 30%; }
+#product-templates-list { width: 65%; }
+
+#product-templates-list {
+	#savechanges-panel {
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+		border-bottom: solid thin #aaa;
+		
+	}
+
+	.product-name {
+		padding: 10px;
+		box-sizing: border-box;
+		border-bottom: solid 1px #555;
+		margin-top: 20px;
+	}
+	
+	.single-template-wrapper {
+		width: 100%;
+		margin-top: 20px;
+		border-bottom: dashed thin #aaa;
+
+		.templ-preview-img {
+			width: 60%;
+		}
+
+		span {
+			display: inline-block;
+			vertical-align: top;
+			width: 38%;
+			text-align: right;
+			.assign-occasion-select {
+				margin-top: 10px;
+				width: 90%;
+				min-height: 120px;
+			}
+		}
+	}
+}
+
+#occasions-left-menu {
+	#new-occasion-toolbar {
+		padding: 10px 5px 10px 5px;
+		width: 100%;
+		box-sizing: border-box;
+		border-bottom: solid thin #aaa;
+
+		input { width: 60%; }
+		button { width: 35%; }
+	}
+
+	#occasions-list-wrapper {
+		margin-top: 20px;
+		width: 100%;
+
+		#occasions-list-table {
+			th { font-size: 80%; }
+			.place-input { width: 20px; }
+			.name-input { width: 100px; }
+			.link-input { width: 70px; }
+		}
+	}
+}
+
+
+
+

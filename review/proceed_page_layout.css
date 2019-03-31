@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+#add_to_cart_butt	{	position:absolute;
+						top:422px;
+						left:690px;	}
+						
+#to_previous_step_butt	{	position:absolute;
+							top:428px;
+							left:105px;	}
+							
+#design_new_butt	{	position:absolute;
+						top:428px;
+						left:300px;		}
+						
+#created_message	{	color:#393;
+						position:absolute;
+						top:45px;
+						right:70px;
+						width:400px;
+						text-align:center;	}
+						
+#wallet_details_wrapper		{	position:absolute;
+								top:175px;
+								width:380px;
+								font-size:12px;
+								right:70px;	}
+								
+#wallet_details_wrapper ul	{	padding-left:14px;	}								
+						
+#wallets_wrapper	{	position:absolute;
+						top:30px;
+						left:70px;
+						width:402px;	}						
+								
+#thumb_img		{	width:430px;
+					margin-top:-10px;	}
+	
+#ownster_outline	{	width:432px;
+						margin-top:-11px;
+						position:absolute;
+						top:10;
+						left:0;
+						z-index:2;	}
+	
+#wallet_back	{	width:432px;
+					margin-top:-10px;	}
+											
+								
+.ownster_title		{	color:#393;
+						
+						width:432px;
+						padding:0px;
+						border-bottom:solid thin;	}

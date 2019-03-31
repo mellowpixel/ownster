@@ -1,0 +1,476 @@
+@charset "UTF-8";
+
+main div.center div.left-column,
+main div.center div.right-column
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+main div.center div.left-column
+{
+	width: 460px;
+}
+
+main div.center div.right-column
+{
+	width: 504px;
+}
+
+.left-half-column,
+.right-half-column
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+
+main div.center div.bottom-wrapper div.right-column div.right-half-column
+{
+	text-align: right;
+}
+
+main div.center div.bottom-wrapper div.right-column div.left-half-column
+{
+	padding-left: 15px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+main div.center div.bottom-wrapper div.right-column
+{
+	vertical-align: top;
+}
+
+main div.center div.bottom-wrapper
+{
+	position: relative;
+	display: inline-block;
+	margin-top: 30px;
+	width: 100%;
+	bottom: 0px;
+}
+
+					
+#address_checkbox	{	/*position:absolute;
+						top:90px;
+						left:50px;*/
+						width:205px;
+						font-size:12px;	}					
+						
+#address_checkbox a	{	/*float:right;*/	
+						width:180px;
+						display:block;	}
+
+#address_checkbox[type="checkbox"]	{	/*position:absolute;
+										float:left;*/	}
+
+#load_from_address_butt	{	cursor:pointer;	}
+
+#form_wrapper	{	/*position:absolute;
+					top:280px;
+					left:200px;*/
+					visibility:hidden;	}
+					
+#delivery_options	{	/*position:absolute;
+						top:370px;
+						left:50px;*/
+						font-size:12px;
+						visibility:hidden;	}
+						
+.label-cell{
+	width: 100px;
+}
+
+#shopping_wrapper	{	/*float:right;*/
+						height:330px;
+						margin-top:80px;
+						margin-right:25px;
+						overflow:hidden;	}
+						
+#shopping_scrollable_page	{	margin-top:0px;	}
+
+#delivery_item		{	margin-top:30px;	}
+
+/*--------------------------------------------------------------*/	
+			
+#cat_name_container	{	position: relative;
+						width:100%;
+						border-bottom:solid thin #5dbb6b;	}
+						
+#postal_info		{	margin-left:20px;
+						color:#393;	}	
+						
+#item_descr		{	margin-left:320px;
+					color:#393;	}						
+																		
+									
+#price_caption		{	
+						margin-left:168px;
+						color:#393;	}										
+														
+									
+#quantity_caption	{	
+						margin-left:20px;
+						color:#393;	}
+
+
+#subtotal_caption	{	
+						margin-left:20px;
+						color:#393;	}							
+									
+
+.required_norm		{	font-size:12px;	}
+.required_red		{	font-size:15px;
+						color:#F00;	}
+
+/*--------------------------------------------------------------*/						
+
+.item_container
+{
+	position:relative;	
+	padding-top:5px;
+	margin-left: 10px;
+}
+
+.item_container div.img-wrapper
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 270px;
+}
+
+.item_container div.img-wrapper img
+{	
+	display: inline-block;
+	vertical-align: top;
+	max-width: 250px;
+	max-height: 250px;
+}
+
+.quantity_label
+{
+	display: inline-block;
+	vertical-align: top;
+	font-size:	 11px;
+	margin-left: 22px;
+	box-sizing: border-box;
+}
+
+.quantity_label table
+{
+	border-collapse: collapse;
+}
+
+.quantity_label table tr td
+{
+	width: 60px;
+	text-align: center;
+}
+
+.price				  					
+.quantity			
+.total_for_item		
+
+.delivery_price		{	font-size:11px;	}
+						
+.int_text			{	font-family:Century Gothic, Arial, Helvetica, sans-serif;
+						font-size:14px;
+						color:#393;
+									}
+									
+#error_message_cell	{	color:#F00;
+						width:150px;
+						vertical-align:top;	}									
+
+#voucher_wrapper	{	font-size:12px;}
+						  
+#redeem_input	{	width:80px;	}
+
+#voucher_wrapper button#redeem_butt
+{
+	height:22px;
+	width:35px;
+	background: #555;
+	color: #5f5;
+	font-family: Century Gothic, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	padding: 0px;
+}
+									
+#total_order{
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: -6px;
+	margin-bottom: 4px;
+	/*margin-bottom: 35px;*/
+}
+				   
+#total_price	{	color:#393;	}
+
+div.cards_logo	{ margin-top: 10px; }
+#cards_logo		{	/*position:absolute;
+					right:90px;
+					bottom:35px;*/	}
+
+#pay_butt
+{	
+	height:50px;
+	width:150px;
+	background: #555;
+	color: #5f5;
+	font-family: Century Gothic, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding: 0px;
+}
+				   
+			
+						
+/*----------------------------------------------------------*/
+
+#delivery_info
+{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10px;
+}
+						
+#delivery_info td	{	padding-left: 25px;
+						text-align:left;	}							
+						
+.attention		{	
+					font-weight:bold;	}						
+						
+.right_td		{	text-align:left;	}
+						
+.vert_gap			{	display:block;
+						width:30px;	}
+						
+#paypall_addr_butt	{	cursor:pointer;
+						padding-left:10px;
+						text-decoration:underline;
+						color:#393;	}
+
+#load_from_address_butt
+{
+	cursor:pointer;
+	padding-left:10px;
+	text-decoration:underline;
+	color:#393;
+}												
+	
+	
+#new_addr_butt	{	cursor:pointer;
+					padding-left:10px;
+						text-decoration:underline;
+						color:#393;	}
+						
+#new_addr_form_wrap		{	margin-top:40px;
+							margin-left:40px;	}
+							
+#save_form_butt			{	margin-left:160px;
+							margin-top:20px;	}											
+
+/*----------------------------------------------------------*/
+
+#delivery_details_container
+{
+	width:100%;
+	border-bottom:solid thin #5dbb6b;
+	margin-bottom: 15px;
+}
+
+#estimated_msg		
+{
+	position:relative;	
+	font-size:14px;
+	color:#393;
+	margin-left:0px;
+}
+						
+#order_will_be_sent	
+{
+	position:relative;	
+	margin-left:35px;	
+	font-size:14px;
+	color:#393;
+}
+
+#address_render
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 55px;
+	width: 210px;
+	text-align:left;
+	font-size:12px;
+}
+				   
+#delivery_date_wrapper
+{
+	display: inline-block;
+	vertical-align: top;
+	width:170px;
+	height:170px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#weekday
+{
+	width:169px;
+	height:30px;
+	background-color:#12B810;
+	color:#FFF;
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+}
+
+#date
+{	
+	width:170px;	
+	text-align:center;
+	font-size:84px;
+	font-weight:bold;
+}
+
+#month
+{					
+	width:169px;
+	height:29px;
+	background-color:#12B810;
+	color:#FFF;
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+}					
+
+/*-------------------------------------------------------------------------------*/
+
+#register_transparent_back	{	position:fixed;
+								width:100%;
+								height:100%;
+								top: 0px;
+								left: 0px;
+								background-color:#000;
+								opacity:0.5;
+								z-index:99998;	}
+								
+#message_widow			{	position:fixed;
+							width:400px;
+							height:300px;
+							border:solid thin;
+							left:50%;
+							top:50%;
+							margin-left:-200px;
+							margin-top:-150px;
+							z-index:99999;
+							background-color:#FFF;
+							overflow:hidden;
+							-moz-border-radius: 15px;
+							border-radius: 15px;	}
+
+.ok_button				{	background:url(../../layoutimg2/ui/ok_butt.png);
+							display:block;
+							cursor:pointer;
+							position:absolute;
+							bottom:20px;
+							left:50%;
+							margin-left:-37px;
+							width:74px;
+							height:22px;	}
+							
+.yes_button				{	background:url(../../layoutimg2/ui/checkout_confirm_butt.png);
+							display:block;
+							cursor:pointer;
+							position:absolute;
+							bottom:20px;
+							right:100px;
+							width:74px;
+							height:22px;	}
+
+.no_button				{	background:url(../../layoutimg2/ui/Back_butt.png);
+							display:block;
+							cursor:pointer;
+							position:absolute;
+							bottom:20px;
+							left:100px;
+							width:74px;
+							height:22px;	}
+
+.yes_button_custom	{	cursor:pointer;
+						position:absolute;
+						bottom:20px;
+						right:100px;}
+
+.no_button_custom	{ 	cursor:pointer;
+						position:absolute;
+						bottom:20px;
+						left:100px;	}
+
+#message_wrapper		{	position:absolute;
+							width:300px;
+							top:40px;
+							left:50%;
+							margin-left:-150px;	}								
+						
+#address_list_window	{	position:fixed;
+							width:400px;
+							height:300px;
+							border:solid thin;
+							left:50%;
+							top:50%;
+							margin-left:-200px;
+							margin-top:-200px;
+							z-index:99999;
+							background-color:#FFF;
+							overflow:hidden;
+							overflow: scroll;	}
+
+							
+.address_block_from_list	{	position:relative;	
+								margin-left: 30px;
+								margin-top:10px;
+								width:300px;
+								font-size:12px;
+								font-weight:bold;	}							
+							
+.select_addr_butt	{	float:right;
+						cursor:pointer;
+						text-decoration:underline;	}							
+							
+#close_window_button	{	position:absolute;
+							width:10px;
+							height:10px;
+							top:10px;
+							right:10px;
+							cursor:pointer;
+							background-color:#F00;
+							z-index:999999;	}							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+														

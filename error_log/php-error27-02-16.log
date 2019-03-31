@@ -1,0 +1,56 @@
+[27-Feb-2016 07:03:08 Europe/Riga] PHP Warning:  Illegal string offset 'login' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 278
+[27-Feb-2016 07:03:08 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:03:08 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:03:08 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:03:08 Europe/Riga] PHP Warning:  Illegal string offset 'password' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 281
+[27-Feb-2016 07:03:08 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:03:08 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:03:08 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:03:48 Europe/Riga] PHP Warning:  Illegal string offset 'login' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 278
+[27-Feb-2016 07:03:48 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:03:48 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:03:48 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:03:48 Europe/Riga] PHP Warning:  Illegal string offset 'password' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 281
+[27-Feb-2016 07:03:48 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:03:48 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:03:48 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:04:43 Europe/Riga] PHP Warning:  Illegal string offset 'login' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 278
+[27-Feb-2016 07:04:43 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:04:43 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:04:43 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:04:43 Europe/Riga] PHP Warning:  Illegal string offset 'password' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 281
+[27-Feb-2016 07:04:43 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:04:43 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:04:43 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:05:38 Europe/Riga] PHP Warning:  Illegal string offset 'login' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 278
+[27-Feb-2016 07:05:38 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:05:38 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:05:38 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:05:38 Europe/Riga] PHP Warning:  Illegal string offset 'password' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 281
+[27-Feb-2016 07:05:38 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:05:38 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:05:38 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:06:38 Europe/Riga] PHP Warning:  Illegal string offset 'login' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 278
+[27-Feb-2016 07:06:38 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:06:38 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:06:38 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:06:38 Europe/Riga] PHP Warning:  Illegal string offset 'password' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 280
+[27-Feb-2016 07:06:38 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:06:38 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:06:38 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:06:38 Europe/Riga] PHP Warning:  Illegal string offset 'password' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 281
+[27-Feb-2016 07:06:38 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:06:38 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:06:38 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:06:44 Europe/Riga] PHP Warning:  Illegal string offset 'login' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 278
+[27-Feb-2016 07:06:44 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:06:44 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:06:44 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:06:44 Europe/Riga] PHP Warning:  Illegal string offset 'password' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 280
+[27-Feb-2016 07:06:44 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:06:44 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:06:44 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16
+[27-Feb-2016 07:06:44 Europe/Riga] PHP Warning:  Illegal string offset 'password' in /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php on line 281
+[27-Feb-2016 07:06:44 Europe/Riga] PHP Stack trace:
+[27-Feb-2016 07:06:44 Europe/Riga] PHP   1. {main}() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:0
+[27-Feb-2016 07:06:44 Europe/Riga] PHP   2. userLogin() /Users/dmitryulyanov/Google Drive 2/httpd/ownster_mobile/inc/userAccount.php:16

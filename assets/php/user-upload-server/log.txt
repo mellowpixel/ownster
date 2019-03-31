@@ -1,0 +1,36 @@
+********************************************
+Main Side: surface_id219 
+User Img Width: 3898
+User Img Height: 2657
+User Img X: 833.33333333333
+User Img Y: 967.2619047619
+-------------------------------------
+Prod Img Src: /products/files/Diary_Front.png
+Prod Img orig W: 700
+Prod Img orig H: 509
+Prod Img Backgr W: 4311
+Prod back img scale to riginal: 6.1585714285714
+New user img width: 632.93899327302
+User img X: 135.31276579293
+User img Y: 157.05946029537
+User Img W scaled: 632.93899327302
+User Img H scaled: 431.43122245419
+-------------------------------------
+********************************************
+Main Side: surface_id219 
+User Img Width: 3898
+User Img Height: 2657
+User Img X: 200
+User Img Y: 232.14285714286
+-------------------------------------
+Prod Img Src: /products/files/Diary_Front.png
+Prod Img orig W: 700
+Prod Img orig H: 509
+Prod Img Backgr W: 4311
+Prod back img scale to riginal: 6.1585714285714
+New user img width: 632.93899327302
+User img X: 32.475063790304
+User img Y: 37.694270470888
+User Img W scaled: 632.93899327302
+User Img H scaled: 431.43122245419
+-------------------------------------

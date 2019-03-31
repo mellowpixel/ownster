@@ -1,0 +1,196 @@
+@import 'bootstrap';
+@import 'general-style-config';
+@import 'header';
+@import 'footer';
+@import 'popup-window';
+
+.content-wrapper {
+	@include make-row(0);
+	
+
+	.page-title-description-wrapper {
+		
+		.title-and-description {
+			display: inline-block;
+		}
+
+		.top-links-menu-wrapper {
+			
+			display: block;
+			margin: 0;
+
+			@media (min-width: $screen-sm-min) { 
+				display: inline-block;
+				margin-left: 10px;
+			}
+			
+			ul {
+				margin: 0px;
+				padding: 0px;
+
+				li {
+					display: block;
+					margin: 0px;
+					list-style: none;
+
+					@media (min-width: $screen-sm-min) { 
+						display: inline-block;
+						margin-left: 30px;	
+					}
+
+					a {
+						color: #ef7a32;
+						font-family: 'bebas_neue_regular';
+						font-size: 120%;
+
+						&.active-link {
+							color: $background-green;
+							text-decoration: underline;
+						}
+					}
+
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+
+	.popup-window.product_variations {
+		.opaque_window.product_variations {
+			position: relative;
+
+			.close-butt {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				display: block;
+				width: 30px;
+				height: 30px;
+				background-color: #fff;
+				border: solid thin #aaa;
+				color: $background-green;
+			}
+
+			.generated-content-wrapper{
+
+				.prod-img {
+					width: 50%;
+					float: left;
+					// max-height: 
+				}
+				
+				.options-wrapper {
+					margin-top: 30px;
+					margin-left: 1%;
+					width: 40%;
+					float: left;
+					text-align: left;
+
+					.variant-option-wrap {
+						min-height: 14px;
+						// margin-top: 2px;
+						padding: 4px 0px 4px 8px;
+						cursor: pointer;
+						display: block;
+
+						&:hover {
+							background-color: lighten($yellow, 45%);
+						}
+
+						* {
+							cursor: pointer;
+						}
+					}
+				}
+
+				.buttons_wrap {
+					width: 40%;
+					margin-top: 30px;
+					margin-left: 1%;
+					float: left;
+					.proceed-butt {
+						width: 100%;
+						@media (min-width: $screen-sm-min) { width: 100%; }
+						@include button-orange(20px, 20px);
+						
+					}
+				}
+			}
+		}
+	}
+	
+	#list-of-products {
+		@include centered_content();
+		margin: 0 auto;
+		margin-top: 30px;
+		min-height: 500px;
+		.product-group-wrapper {
+
+			&.num_columns2{
+				@include make-xs-column(12);
+				@include make-sm-column(6);
+				@media (min-width: $screen-sm-min) { 
+					.img-wrapper {
+						// min-height: 250px;
+						text-align: center;
+						img {
+							width: 75%;
+						}
+					}
+				}
+			}
+			&.num_columns3{
+				@include make-xs-column(12);
+				@include make-sm-column(4);
+				@media (min-width: $screen-sm-min) { 
+					.img-wrapper {
+						// min-height: 280px;
+						img {
+							width: 95%;
+						}
+					}
+				}
+			}
+			&.num_columns4{
+				@include make-xs-column(12);
+				@include make-sm-column(3);
+			}
+			
+			min-height: 200px;
+			text-align: center;
+			padding-bottom: 30px;
+
+			h1,h2,h3,h4,h5 {
+				@include header-look();
+				&.green {
+					color: $background-green;
+				}
+			}
+
+			.description {
+				text-align: center;
+			}
+
+			.button-wrapper {
+				text-align: center;
+				width: 100%;
+				.transparent-butt {
+					display: block;
+					background: none;
+					font-family: 'bebas_neue_regular';
+					font-size: 120%;
+					border: solid 1px $background-green;
+					color: $background-green;
+					// font-weight: bold;
+					text-transform: capitalize;
+					margin: 0px auto;
+					width: 42%;
+					padding:10px;
+				}
+			}
+			
+		}
+	}
+}

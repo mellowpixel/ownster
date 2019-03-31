@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+#country_input		{	width:155px;
+						background: none;
+						border: solid thin; }
+
+input[name="login_field"],
+input[name="form_field"]
+{
+	width: 155px;
+	border:solid thin #444;
+}
+
+.normal_text		{	color:#555;
+						font-weight:normal;		}
+						
+.invisible_text		{	visibility:hidden;
+						color:#555;
+						font-weight:normal;		}
+
+.error_text			{	color:#f00;
+						font-weight:bold;}
+						
+.message			{	color:#F00;
+						text-align:left;
+						padding-left:10px;
+						font-size:10px;	}
+
+table				{	margin-top:0px;
+						font-family:'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+						font-size:11px;	}
+						
+td					{	text-align:right;	}
+
+table a					{	margin-right:10px;	}
+
+#login_message		{	position:absolute;
+						width:520px;
+						left:50%;
+						margin-left:-260px;
+						margin-top:50px;
+						text-align:center;	}
+						
+#go_to_account_butt	{	margin-top:40px;	}
+
+#email	{	font-weight:bold;
+			color:#494949;	}
+
+#address	{	font-weight:bold;
+				color:#494949;	}
+				
+#info_message	{	font-size:13px;
+					margin-top:30px;
+					display:block;	}
+
+#loggedin_message	{	font-size:13px;	}										
+	
+#registered_message	{	color:#393;
+						font-size:19px;
+						
+						margin-top:50px;	}	
+						
+#success_message	{	color:#393;
+						font-size:19px;
+						width:520px;
+						display:block;
+						text-align:center;
+						margin-top:50px;	}
+												
+						
+#message_area	{	margin-top:20px;
+					margin-left:60px;
+					width:480px;	}
+					
+#register_message_area	{	margin-top:50px;
+							margin-left:70px;
+							width:580px;	}					
+					
+#message_area ul	{	margin-left:118px;	}												
